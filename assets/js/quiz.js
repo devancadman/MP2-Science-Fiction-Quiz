@@ -169,4 +169,42 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         return false;
     }
+
+    // Show the final result
+    function showResult() {
+        hideElement(questionContainer);
+
+        resultText.textContent = `Your score: ${score}/${Math.min(maxQuestions, questionIndices.length)}`;
+        resultText.style.color = "black";
+
+        showElement(resultContainer);
+
+        // Display the list of answered questions
+        const answeredQuestionsList = document.createElement("ul");
+        answeredQuestionsList.classList.add("answered-questions-list");
+
+        answeredQuestions.forEach(function (answeredQuestion) {
+        const questionItem = document.createElement("li");
+        const questionText = document.createElement("p");
+        questionText.classList.add("answered-question");
+        questionText.textContent = answeredQuestion.question;
+        questionItem.appendChild(questionText);
+
+        if (answeredQuestion.isCorrect) {
+            questionItem.classList.add("correct");
+        } else {
+            questionItem.classList.add("wrong");
+            const correctAnswerItem = document.createElement("p");
+            correctAnswerItem.textContent = `Correct Answer: ${answeredQuestion.correctAnswer}`;
+            correctAnswerItem.classList.add("correct-answer");
+            questionItem.appendChild(correctAnswerItem);
+        }
+
+        const answerItem = document.createElement("p");
+        answerItem.textContent = `Answer: ${answeredQuestion.answer}`;
+        questionItem.appendChild(answerItem);
+
+        answeredQuestionsList.appendChild(questionItem);
+    });
+
 });

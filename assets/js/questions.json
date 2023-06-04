@@ -4125,7 +4125,6 @@
           "correctIndex": 3
         }
     ],
-
     
     "Stargate": [
         {
@@ -4630,6 +4629,537 @@
             "Apophis",
             "Seth",
             "Anubis"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
+    ],
+
+    "Harry Potter": [
+        {
+          "question": "What is the name of the boy who lived and is the protagonist of the series?",
+          "options": [
+            "Ron Weasley",
+            "Hermione Granger",
+            "Draco Malfoy",
+            "Harry Potter"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Harry Potter's owl?",
+          "options": [
+            "Hedwig",
+            "Dobby",
+            "Crookshanks",
+            "Scabbers"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Hogwarts house does Harry Potter belong to?",
+          "options": [
+            "Gryffindor",
+            "Hufflepuff",
+            "Ravenclaw",
+            "Slytherin"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is Harry Potter's best friend?",
+          "options": [
+            "Ron Weasley",
+            "Hermione Granger",
+            "Neville Longbottom",
+            "Luna Lovegood"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the dark wizard who killed Harry Potter's parents?",
+          "options": [
+            "Voldemort",
+            "Bellatrix Lestrange",
+            "Lucius Malfoy",
+            "Severus Snape"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which professor teaches Defense Against the Dark Arts in Harry Potter's first year at Hogwarts?",
+          "options": [
+            "Severus Snape",
+            "Remus Lupin",
+            "Albus Dumbledore",
+            "Quirinus Quirrell"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the train that takes students to Hogwarts School of Witchcraft and Wizardry?",
+          "options": [
+            "Hogwarts Express",
+            "Knight Bus",
+            "Thestral",
+            "Firebolt"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the sport played on broomsticks in the wizarding world?",
+          "options": [
+            "Quidditch",
+            "Wizard Chess",
+            "Gobstones",
+            "Exploding Snap"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the three-headed dog that guards the Philosopher's Stone in the first book?",
+          "options": [
+            "Fluffy",
+            "Norbert",
+            "Fang",
+            "Scabbers"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Weasley family's flying car?",
+          "options": [
+            "Nimbus 2000",
+            "Firebolt",
+            "Ford Anglia",
+            "Hogwarts Express"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the headmaster of Hogwarts School of Witchcraft and Wizardry?",
+          "options": [
+            "Severus Snape",
+            "Albus Dumbledore",
+            "Minerva McGonagall",
+            "Rubeus Hagrid"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the magical artifact that allows the user to become invisible?",
+          "options": [
+            "Pensieve",
+            "Remembrall",
+            "Sorcerer's Stone",
+            "Invisibility Cloak"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the house-elf who serves the Malfoy family?",
+          "options": [
+            "Dobby",
+            "Kreacher",
+            "Winky",
+            "Hokey"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the gamekeeper at Hogwarts who is half-giant?",
+          "options": [
+            "Rubeus Hagrid",
+            "Argus Filch",
+            "Filius Flitwick",
+            "Sybill Trelawney"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the prison guarded by Dementors in the wizarding world?",
+          "options": [
+            "Azkaban",
+            "Gringotts",
+            "Hogwarts",
+            "Diagon Alley"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the sport played on broomsticks in the wizarding world?",
+          "options": [
+            "Quidditch",
+            "Wizard Chess",
+            "Gobstones",
+            "Exploding Snap"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the potion that grants good luck in 'Harry Potter and the Half-Blood Prince'?",
+          "options": [
+            "Polyjuice Potion",
+            "Felix Felicis",
+            "Amortentia",
+            "Veritaserum"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is revealed to be a werewolf in 'Harry Potter and the Prisoner of Azkaban'?",
+          "options": [
+            "Draco Malfoy",
+            "Remus Lupin",
+            "Severus Snape",
+            "Sirius Black"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the house-elf who serves the Black family?",
+          "options": [
+            "Dobby",
+            "Kreacher",
+            "Winky",
+            "Hokey"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Weasley family's magical clock that shows the whereabouts of each family member?",
+          "options": [
+            "Time-Turner",
+            "Sneakoscope",
+            "Deluminator",
+            "Marauder's Map"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which professor teaches Transfiguration at Hogwarts School of Witchcraft and Wizardry?",
+          "options": [
+            "Severus Snape",
+            "Minerva McGonagall",
+            "Filius Flitwick",
+            "Sybill Trelawney"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Triwizard Tournament's mascot in 'Harry Potter and the Goblet of Fire'?",
+          "options": [
+            "Niffler",
+            "Grindylow",
+            "Blast-Ended Skrewt",
+            "Hippogriff"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which magical creature is known for its ability to heal wounds and is used in 'Harry Potter and the Chamber of Secrets'?",
+          "options": [
+            "Basilisk",
+            "Hippogriff",
+            "Phoenix",
+            "Unicorn"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the house ghost of Ravenclaw in Hogwarts?",
+          "options": [
+            "Nearly Headless Nick",
+            "Fat Friar",
+            "Grey Lady",
+            "Bloody Baron"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which unforgivable curse causes the victim to become completely under the caster's control?",
+          "options": [
+            "Imperius Curse",
+            "Cruciatus Curse",
+            "Avada Kedavra",
+            "Sectumsempra"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the potion that allows the drinker to assume the appearance of someone else?",
+          "options": [
+            "Polyjuice Potion",
+            "Veritaserum",
+            "Felix Felicis",
+            "Draught of Living Death"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ghost who haunts the girls' bathroom at Hogwarts?",
+          "options": [
+            "Nearly Headless Nick",
+            "Moaning Myrtle",
+            "Fat Friar",
+            "Grey Lady"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which wizarding school does Victor Krum, the famous Quidditch player, attend?",
+          "options": [
+            "Hogwarts School of Witchcraft and Wizardry",
+            "Beauxbatons Academy of Magic",
+            "Durmstrang Institute",
+            "Ilvermorny School of Witchcraft and Wizardry"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Hermione Granger's parents?",
+          "options": [
+            "Arthur and Molly Weasley",
+            "James and Lily Potter",
+            "Lucius and Narcissa Malfoy",
+            "Mr. and Mrs. Granger"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the pub located in Hogsmeade village?",
+          "options": [
+            "The Three Broomsticks",
+            "The Leaky Cauldron",
+            "The Hog's Head",
+            "The Burrow"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which magical object is known for its ability to reveal the location of the wearer's loved ones?",
+          "options": [
+            "Time-Turner",
+            "Sneakoscope",
+            "Deluminator",
+            "Marauder's Map"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the newspaper in the wizarding world that often features sensational stories?",
+          "options": [
+            "The Daily Prophet",
+            "The Quibbler",
+            "The Daily Bugle",
+            "The Witch's Weekly"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the author of 'Fantastic Beasts and Where to Find Them'?",
+          "options": [
+            "Rita Skeeter",
+            "Newt Scamander",
+            "Gilderoy Lockhart",
+            "Bathilda Bagshot"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the village where the final battle takes place in 'Harry Potter and the Deathly Hallows'?",
+          "options": [
+            "Godric's Hollow",
+            "Hogsmeade",
+            "Little Whinging",
+            "Diagon Alley"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which creature serves as the messenger for Lord Voldemort in the 'Harry Potter' series?",
+          "options": [
+            "Basilisk",
+            "Dementor",
+            "Acromantula",
+            "Nagini"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the potion that can grant immortality in 'Harry Potter and the Sorcerer's Stone'?",
+          "options": [
+            "Veritaserum",
+            "Polyjuice Potion",
+            "Draught of Living Death",
+            "Philosopher's Stone"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the Headmaster of Durmstrang Institute in the 'Harry Potter' series?",
+          "options": [
+            "Albus Dumbledore",
+            "Severus Snape",
+            "Horace Slughorn",
+            "Igor Karkaroff"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the goblin who helps Harry, Ron, and Hermione break into Gringotts Bank?",
+          "options": [
+            "Griphook",
+            "Bogrod",
+            "Travers",
+            "Bill Weasley"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the author of 'Hogwarts: A History'?",
+          "options": [
+            "Helga Hufflepuff",
+            "Rowena Ravenclaw",
+            "Hermione Granger",
+            "Bathilda Bagshot"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the curse that destroys Horcruxes in the 'Harry Potter' series?",
+          "options": [
+            "Avada Kedavra",
+            "Cruciatus Curse",
+            "Imperius Curse",
+            "Fiendfyre"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the caretaker of the Room of Requirement at Hogwarts?",
+          "options": [
+            "Filch",
+            "Madam Pomfrey",
+            "Madame Maxime",
+            "Professor Sprout"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the spell used to create a Patronus?",
+          "options": [
+            "Expecto Patronum",
+            "Obliviate",
+            "Expelliarmus",
+            "Riddikulus"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Horcrux is destroyed last in the 'Harry Potter' series?",
+          "options": [
+            "Nagini",
+            "Diadem of Ravenclaw",
+            "Locket of Slytherin",
+            "Cup of Hufflepuff"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the founder of the House of Hufflepuff?",
+          "options": [
+            "Helga Hufflepuff",
+            "Salazar Slytherin",
+            "Godric Gryffindor",
+            "Rowena Ravenclaw"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the prison guarded by Dementors in the 'Harry Potter' series?",
+          "options": [
+            "Azkaban",
+            "Nurmengard",
+            "Shrieking Shack",
+            "Forbidden Forest"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the founder of the Order of the Phoenix?",
+          "options": [
+            "Albus Dumbledore",
+            "Minerva McGonagall",
+            "Sirius Black",
+            "Severus Snape"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the curse that protects the entrance to the Chamber of Secrets?",
+          "options": [
+            "Avada Kedavra",
+            "Cruciatus Curse",
+            "Imperius Curse",
+            "Basilisk Venom"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the author of 'Magical Me'?",
+          "options": [
+            "Gilderoy Lockhart",
+            "Rita Skeeter",
+            "Bathilda Bagshot",
+            "Newt Scamander"
           ],
           "level": "hard",
           "correctIndex": 0

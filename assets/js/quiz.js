@@ -207,4 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
         answeredQuestionsList.appendChild(questionItem);
     });
 
+    resultContainer.appendChild(answeredQuestionsList);
+  }
+
 });

@@ -201,3 +201,172 @@ img#muteIcon {
     background-color: var(--dark-blue);
   }
   /***** END - Category list *****/
+
+  /***** BUTTONS *****/
+.outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .mute-button {
+    cursor: url("/assets/images/arrow.png") 0 0, pointer;
+  }
+  .sound-button {
+    width:56.7px;
+  }
+  .mute-button {
+    background: url("/assets/images/audio-on.png") center center/40px no-repeat var(--border-blue);
+    height: 50px;
+    width: 56.7px;
+    border: none;
+    z-index: 5;
+  }
+  .mute-button.muted {
+    background: url("/assets/images/audio-off.png") center center/40px no-repeat var(--border-blue);
+  }
+  .outline-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8.5px;
+    background: var(--border-blue);
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Orbitron", monospace;
+    z-index: 5;
+  }
+  .outline-btn:hover, .mute-button:hover {
+    outline: 1px solid var(--light-blue);
+    outline-offset: -4px;
+  }
+  
+  button.option {
+    padding: 12px 20px;
+    position: relative;
+    margin: auto;
+    font-family: "Breamcatcher";
+    font-size: 22px;
+    text-align: center;
+    min-width: 45%;
+    transition: all 0.3s;
+  }
+  
+  #next-button {
+    padding: 12px 20px;
+    margin:0 auto;
+    background: rgba(5,28,37,0.5);
+  }
+  #next-button:hover {
+    background-color: var(--dark-blue);
+  }
+  
+  .wrong {
+    position: relative;
+    margin: auto;
+    font-family: "Breamcatcher";
+    font-size: 22px;
+    text-align: center;
+    min-width: 200px;
+    transition: all 0.3s;
+    border: 1px solid var(--red);
+    background: var(--dark-red);
+    padding: 20px;
+    pointer-events: all;
+    color:var(--red);
+  }
+  .wrong:before, .wrong:after {
+    z-index: -1;
+    content: " ";
+    display: block;
+    background:var(--red);
+    width: 80px;
+    height: 8px;
+    position: absolute;
+    transition: all 0.3s;
+  }
+  .wrong:before {
+    top:0;
+    left: 4px;
+    transform: translateY(-48%) skewX(45deg) rotate(-4deg);
+  }
+  .wrong:after {
+    transform: translateY(48%) skewX(45deg) rotate(-4deg);
+    right:4px;
+    bottom: 0;
+  }
+  
+  .correct {
+    position:relative;
+    font-family: "Breamcatcher";
+    font-size: 22px;
+    text-align: center;
+    min-width: 200px;
+    transition: all 0.3s;
+    border: 1px solid var(--green);
+    box-shadow: 0 0 10px 0px #072512;
+    background: var(--dark-green);
+    padding: 20px;
+    pointer-events: all;
+    color:var(--green);
+  }
+  .correct:before, .correct:after {
+    z-index: -1;
+    content: " ";
+    display: block;
+    background: var(--green);
+    width: 80px;
+    height: 8px;
+    position: absolute;
+    transition: all 0.3s;
+    }
+  
+  .correct:before {
+    top:0;
+    left: 4px;
+    transform: translateY(-48%) skewX(45deg) rotate(-4deg);
+  }
+  .correct:after {
+    transform: translateY(48%) skewX(45deg) rotate(-4deg);
+    right:4px;
+    bottom: 0;
+  }
+  
+  .blue-btn {
+    position:relative;
+    margin: auto;
+    font-family: "Breamcatcher";
+    font-size: 22px;
+    text-align: center;
+    min-width: 200px;
+    transition: all 0.3s;
+    border: 1px solid var(--border-blue);
+    background: var(--dark-blue);
+    padding: 20px;
+    pointer-events: all;
+    color:var(--light-blue);
+  }
+  .blue-btn:before, .blue-btn:after {
+    z-index: -1;
+    content: " ";
+    display: block;
+    background: var(--border-blue);;
+    width: 80px;
+    height: 8px;
+    position: absolute;
+    transition: all 0.3s;
+  }
+  .blue-btn:before {
+    top:0;
+    left: 4px;
+    transform: translateY(-48%) skewX(45deg) rotate(-4deg);
+  }
+  .blue-btn:after {
+    transform: translateY(48%) skewX(45deg) rotate(-4deg);
+    right:4px;
+    bottom: 0;
+  }
+  .blue-btn:hover {
+    border-color:var(--light-blue);
+  }
+  .blue-btn:hover:before {left:20px;}
+  .blue-btn:hover:after {right:20px;}
+  .blue-btn:hover:after, .blue-btn:hover:before {
+    background-color:var(--light-blue);
+  }
+  /***** END - Buttons *****/

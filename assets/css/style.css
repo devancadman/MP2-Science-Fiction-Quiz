@@ -9,3 +9,19 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* Basic Styling */
+:root {
+    --bright-red: #ff3c3c;
+    --bright-green: #78ff00;
+    --dark-red: #290909;
+    --border-red: #37231d;
+    --red: #e64248;
+    --dark-green: #05170c;
+    --border-green: #052511;
+    --green: #4adb82;
+    --dark-blue: #051417;
+    --border-blue: #051c25;
+    --light-blue: #4AC0DB;
+    --light-white:  rgba(255, 255, 255, 0.5)
+  }

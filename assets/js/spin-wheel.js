@@ -78,13 +78,21 @@ let categoryNodes;
 // Create the category nodes on the wheel
 const createCategoryNodes = () => {
     categories.forEach(({ text, color, url }, i) => {
-      const rotation = ((categoriesSlice * i) * -1) - categoryOffset;
-  
-      spinner.insertAdjacentHTML(
+        const rotation = ((categoriesSlice * i) * -1) - categoryOffset;
+
+        spinner.insertAdjacentHTML(
         "beforeend",
         `<li class="category" style="--rotate: ${rotation}deg;" data-url="${url}">
-          <span class="text">${text}</span>
+            <span class="text">${text}</span>
         </li>`
-      );
+        );
     });
-  };
+};
+
+// Create the conic gradient for the spinner background
+const createConicGradient = () => {
+    spinner.setAttribute(
+        "style",
+        `background: conic-gradient(from -90deg, ${categories.map(({ color }, i) => `${color} 0 ${(100 / categories.length) * (categories.length - i)}%`).reverse()});`
+    );
+};

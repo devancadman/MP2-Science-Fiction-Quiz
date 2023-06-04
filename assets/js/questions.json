@@ -1015,5 +1015,514 @@
           "level": "hard",
           "correctIndex": 0
         }
+    ],
+
+    "Star Trek": [
+        {
+          "question": "Who is the captain of the USS Enterprise in the original Star Trek series?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Vulcan science officer in the original Star Trek series?",
+          "options": [
+            "Spock",
+            "Data",
+            "McCoy",
+            "Worf"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the famous phrase often said by Spock in Star Trek?",
+          "options": [
+            "Engage",
+            "Make it so",
+            "Beam me up, Scotty",
+            "Live long and prosper"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the spaceship in Star Trek: The Next Generation?",
+          "options": [
+            "USS Enterprise",
+            "USS Voyager",
+            "Deep Space Nine",
+            "USS Defiant"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Kathryn Janeway",
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the primary mission of the USS Enterprise in Star Trek: The Original Series?",
+          "options": [
+            "Exploration",
+            "Diplomacy",
+            "Warfare",
+            "Time travel"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the space station in Star Trek: Deep Space Nine?",
+          "options": [
+            "USS Enterprise",
+            "USS Voyager",
+            "Deep Space Nine",
+            "USS Defiant"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the captain of the USS Defiant in Star Trek: Deep Space Nine?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the captain of the USS Discovery in Star Trek: Discovery?",
+          "options": [
+            "Kathryn Janeway",
+            "Gabriel Lorca",
+            "Philippa Georgiou",
+            "Christopher Pike"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Vulcan-human hybrid in Star Trek: Enterprise?",
+          "options": [
+            "Spock",
+            "Data",
+            "T'Pol",
+            "Worf"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the first Star Trek film released in 1979?",
+          "options": [
+            "Star Trek: The Motion Picture",
+            "Star Trek II: The Wrath of Khan",
+            "Star Trek III: The Search for Spock",
+            "Star Trek IV: The Voyage Home"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the villainous Borg queen in Star Trek?",
+          "options": [
+            "Lursa",
+            "B'Etor",
+            "Seven of Nine",
+            "The Borg Queen"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the chief engineer of the USS Enterprise-D in Star Trek: The Next Generation?",
+          "options": [
+            "Geordi La Forge",
+            "Worf",
+            "William Riker",
+            "Beverly Crusher"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Vulcan ambassador in Star Trek: Enterprise?",
+          "options": [
+            "Soval",
+            "Sarek",
+            "T'Pol",
+            "Surak"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Discovery in Star Trek: Picard?",
+          "options": [
+            "Kathryn Janeway",
+            "Gabriel Lorca",
+            "Jean-Luc Picard",
+            "Christopher Pike"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the alien race that assimilates other species in Star Trek?",
+          "options": [
+            "Klingons",
+            "Romulans",
+            "Cardassians",
+            "Borg"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Klingon homeworld in Star Trek?",
+          "options": [
+            "Qo'noS",
+            "Vulcan",
+            "Ferenginar",
+            "Andoria"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the first officer of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Tuvok",
+            "Chakotay",
+            "Neelix",
+            "Tom Paris"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alien species that worships the Founders in Star Trek: Deep Space Nine?",
+          "options": [
+            "Kazon",
+            "Ferengi",
+            "Vorta",
+            "Jem'Hadar"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the captain of the USS Enterprise-E in the Star Trek films?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the android crew member in Star Trek: The Next Generation?",
+          "options": [
+            "Spock",
+            "Data",
+            "McCoy",
+            "Worf"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the chief medical officer of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Kathryn Janeway",
+            "B'Elanna Torres",
+            "Kes",
+            "The Doctor"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek series is set in the 22nd century?",
+          "options": [
+            "Star Trek: The Original Series",
+            "Star Trek: The Next Generation",
+            "Star Trek: Voyager",
+            "Star Trek: Enterprise"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Ferengi bartender on Deep Space Nine?",
+          "options": [
+            "Quark",
+            "Rom",
+            "Nog",
+            "Garak"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the security chief of the USS Enterprise-D in Star Trek: The Next Generation?",
+          "options": [
+            "Geordi La Forge",
+            "Worf",
+            "William Riker",
+            "Beverly Crusher"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the mirror universe counterpart of Captain Kirk in Star Trek?",
+          "options": [
+            "Evil Kirk",
+            "Mirror Kirk",
+            "Terran Kirk",
+            "Captain K"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the Klingon chancellor who is killed by the Duras sisters in Star Trek: The Next Generation?",
+          "options": [
+            "K'mpec",
+            "Gowron",
+            "Kahless",
+            "Martok"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the chief engineer of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Tuvok",
+            "Chakotay",
+            "Neelix",
+            "B'Elanna Torres"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek film features the Borg as the primary antagonists?",
+          "options": [
+            "Star Trek II: The Wrath of Khan",
+            "Star Trek: First Contact",
+            "Star Trek Generations",
+            "Star Trek: Insurrection"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Romulan commander who serves as a recurring antagonist in Star Trek: The Next Generation?",
+          "options": [
+            "Sela",
+            "Tal'Aura",
+            "Toreth",
+            "T'Pol"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the superhuman group led by Khan Noonien Singh in Star Trek: The Original Series?",
+          "options": [
+            "Section 31",
+            "The Dominion",
+            "The Xindi",
+            "The Augments"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek series is set on a space station rather than a starship?",
+          "options": [
+            "Star Trek: The Original Series",
+            "Star Trek: The Next Generation",
+            "Star Trek: Voyager",
+            "Star Trek: Deep Space Nine"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the android created by Dr. Noonien Soong in Star Trek: The Next Generation?",
+          "options": [
+            "Data",
+            "Lore",
+            "B-4",
+            "Juliana"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Enterprise in the Star Trek reboot films?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Cardassian spy who infiltrates the crew of Deep Space Nine?",
+          "options": [
+            "Gul Dukat",
+            "Elim Garak",
+            "Weyoun",
+            "Damar"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the captain of the USS Defiant in Star Trek: Enterprise?",
+          "options": [
+            "Kathryn Janeway",
+            "Jonathan Archer",
+            "Benjamin Sisko",
+            "Jean-Luc Picard"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the artificial intelligence that controls the Borg Collective in Star Trek?",
+          "options": [
+            "Locutus",
+            "The Hive Mind",
+            "V'Ger",
+            "The Borg Queen"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek film features the time-traveling villain Nero?",
+          "options": [
+            "Star Trek: First Contact",
+            "Star Trek Into Darkness",
+            "Star Trek Beyond",
+            "Star Trek: Nemesis"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the ancient civilization that left behind advanced technology in the Delta Quadrant in Star Trek: Voyager?",
+          "options": [
+            "The Iconians",
+            "The Preservers",
+            "The Voth",
+            "The Vaadwaur"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Discovery in Star Trek: Discovery?",
+          "options": [
+            "Michael Burnham",
+            "Gabriel Lorca",
+            "Saru",
+            "Christopher Pike"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the first Vulcan-human hybrid in Star Trek?",
+          "options": [
+            "Spock",
+            "T'Pol",
+            "Saavik",
+            "Sarek"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Star Trek series is set in the 24th century?",
+          "options": [
+            "Star Trek: The Original Series",
+            "Star Trek: The Next Generation",
+            "Star Trek: Deep Space Nine",
+            "Star Trek: Enterprise"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Romulan commander who poses as a Vulcan ambassador in Star Trek: Enterprise?",
+          "options": [
+            "Shinzon",
+            "Nero",
+            "V'Las",
+            "Valdore"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the leader of the Dominion in Star Trek: Deep Space Nine?",
+          "options": [
+            "Gul Dukat",
+            "Weyoun",
+            "Kai Winn",
+            "The Female Changeling"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek film features the Klingons as the primary antagonists?",
+          "options": [
+            "Star Trek II: The Wrath of Khan",
+            "Star Trek VI: The Undiscovered Country",
+            "Star Trek: First Contact",
+            "Star Trek: Insurrection"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Vulcan High Command agent who manipulates events in Star Trek: Enterprise?",
+          "options": [
+            "Sarek",
+            "T'Pau",
+            "Soval",
+            "Surak"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        }
     ]
 }

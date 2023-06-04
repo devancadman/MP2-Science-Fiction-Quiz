@@ -184,30 +184,40 @@ document.addEventListener("DOMContentLoaded", function () {
         answeredQuestionsList.classList.add("answered-questions-list");
 
         answeredQuestions.forEach(function (answeredQuestion) {
-        const questionItem = document.createElement("li");
-        const questionText = document.createElement("p");
-        questionText.classList.add("answered-question");
-        questionText.textContent = answeredQuestion.question;
-        questionItem.appendChild(questionText);
+            const questionItem = document.createElement("li");
+            const questionText = document.createElement("p");
+            questionText.classList.add("answered-question");
+            questionText.textContent = answeredQuestion.question;
+            questionItem.appendChild(questionText);
 
-        if (answeredQuestion.isCorrect) {
-            questionItem.classList.add("correct");
-        } else {
-            questionItem.classList.add("wrong");
-            const correctAnswerItem = document.createElement("p");
-            correctAnswerItem.textContent = `Correct Answer: ${answeredQuestion.correctAnswer}`;
-            correctAnswerItem.classList.add("correct-answer");
-            questionItem.appendChild(correctAnswerItem);
-        }
+            if (answeredQuestion.isCorrect) {
+                questionItem.classList.add("correct");
+            } else {
+                questionItem.classList.add("wrong");
+                const correctAnswerItem = document.createElement("p");
+                correctAnswerItem.textContent = `Correct Answer: ${answeredQuestion.correctAnswer}`;
+                correctAnswerItem.classList.add("correct-answer");
+                questionItem.appendChild(correctAnswerItem);
+            }
 
-        const answerItem = document.createElement("p");
-        answerItem.textContent = `Answer: ${answeredQuestion.answer}`;
-        questionItem.appendChild(answerItem);
+            const answerItem = document.createElement("p");
+            answerItem.textContent = `Answer: ${answeredQuestion.answer}`;
+            questionItem.appendChild(answerItem);
 
-        answeredQuestionsList.appendChild(questionItem);
-    });
+            answeredQuestionsList.appendChild(questionItem);
+        });
 
-    resultContainer.appendChild(answeredQuestionsList);
-  }
+        resultContainer.appendChild(answeredQuestionsList);
+    }
 
+    // Update progress bar and text
+    function updateProgressText() {
+        const totalQuestions = Math.min(maxQuestions, questionIndices.length);
+        const currentQuestionNumber = currentQuestionIndex + 1;
+        const progressPercentage = (currentQuestionNumber / totalQuestions) * 100;
+
+        progressBar.value = progressPercentage;
+        progressText.textContent = `${Math.round(progressPercentage)}%`;
+        counterText.textContent = `Question: ${currentQuestionNumber} / ${totalQuestions}`;
+    }
 });

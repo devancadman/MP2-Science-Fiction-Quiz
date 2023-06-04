@@ -2033,5 +2033,536 @@
           "level": "hard",
           "correctIndex": 1
         }
-    ]  
+    ],
+    
+    "Doctor Who": [
+        {
+          "question": "Who is the main character and protagonist of Doctor Who?",
+          "options": [
+            "The Doctor",
+            "The Master",
+            "Rose Tyler",
+            "Amy Pond"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's preferred method of transportation?",
+          "options": [
+            "The TARDIS",
+            "The Millennium Falcon",
+            "The DeLorean",
+            "The Enterprise"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's time-traveling spaceship disguised as a British police box?",
+          "options": [
+            "TARDIS",
+            "ARDIS",
+            "SARDIS",
+            "PARDIS"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrayed the Tenth Doctor?",
+          "options": [
+            "David Tennant",
+            "Matt Smith",
+            "Christopher Eccleston",
+            "Peter Capaldi"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's arch-nemesis?",
+          "options": [
+            "Daleks",
+            "Cybermen",
+            "Weeping Angels",
+            "The Master"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the Doctor's catchphrase?",
+          "options": [
+            "Fantastic!",
+            "Geronimo!",
+            "Allons-y!",
+            "Exterminate!"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the Doctor's first companion in the rebooted series?",
+          "options": [
+            "Rose Tyler",
+            "Amy Pond",
+            "Clara Oswald",
+            "Donna Noble"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's home planet called?",
+          "options": [
+            "Gallifrey",
+            "Skaro",
+            "Trenzalore",
+            "Karn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's eleventh incarnation?",
+          "options": [
+            "David Tennant",
+            "Matt Smith",
+            "Christopher Eccleston",
+            "Peter Capaldi"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the Doctor's current companion as of 2021?",
+          "options": [
+            "Graham O'Brien",
+            "Ryan Sinclair",
+            "Yasmin Khan",
+            "Clara Oswald"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the Doctor's sonic screwdriver used for?",
+          "options": [
+            "Opening doors",
+            "Repairing machinery",
+            "Scanning for alien life",
+            "All of the above"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the Doctor's wife?",
+          "options": [
+            "River Song",
+            "Martha Jones",
+            "Sarah Jane Smith",
+            "Donna Noble"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the current showrunner of Doctor Who?",
+          "options": [
+            "Russell T Davies",
+            "Steven Moffat",
+            "Chris Chibnall",
+            "Mark Gatiss"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which actor portrayed the Ninth Doctor?",
+          "options": [
+            "Christopher Eccleston",
+            "David Tennant",
+            "Matt Smith",
+            "Peter Capaldi"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's real name?",
+          "options": [
+            "The Doctor",
+            "John Smith",
+            "Theta Sigma",
+            "It's never been revealed"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the Doctor's oldest and most formidable enemy?",
+          "options": [
+            "Daleks",
+            "Cybermen",
+            "The Master",
+            "Weeping Angels"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's home planet known for?",
+          "options": [
+            "Advanced Time Travel Technology",
+            "Peace and Harmony",
+            "Brave Warriors",
+            "Time-Locked Existence"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Doctor is known for wearing a bowtie and fez?",
+          "options": [
+            "Eleventh Doctor",
+            "Twelfth Doctor",
+            "Tenth Doctor",
+            "Ninth Doctor"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's oldest living relative?",
+          "options": [
+            "The Rani",
+            "Susan Foreman",
+            "Romana",
+            "The Meddling Monk"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which alien species is known for their ability to regenerate?",
+          "options": [
+            "Time Lords",
+            "Sontarans",
+            "Slitheen",
+            "Weeping Angels"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who was the first actor to portray the Doctor in the original series?",
+          "options": [
+            "William Hartnell",
+            "Patrick Troughton",
+            "Jon Pertwee",
+            "Tom Baker"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's home city on Gallifrey?",
+          "options": [
+            "Arcadia",
+            "Gallifrey City",
+            "New New York",
+            "Skaro"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrayed the War Doctor in the 50th-anniversary special episode 'The Day of the Doctor'?",
+          "options": [
+            "David Tennant",
+            "John Hurt",
+            "Paul McGann",
+            "Tom Baker"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the Doctor's second heart known as?",
+          "options": [
+            "Binary Heart",
+            "Cardiovascular Duplication",
+            "Time Lord Heart",
+            "Pulse of Time"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the Doctor's longest-serving companion in the rebooted series?",
+          "options": [
+            "Rose Tyler",
+            "Amy Pond",
+            "Clara Oswald",
+            "Donna Noble"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the Doctor's home planet's original name before it was destroyed?",
+          "options": [
+            "Skaro",
+            "Mondas",
+            "Karn",
+            "Malcassairo"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's robotic dog companion?",
+          "options": [
+            "K-9",
+            "R2-D2",
+            "BB-8",
+            "Chewbacca"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the organization that the Doctor's daughter, Jenny, forms?",
+          "options": [
+            "UNIT",
+            "TORCHWOOD",
+            "Sontaran Empire",
+            "The Doctor's Army"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which companion meets the Doctor in a shop called 'Henrik's'?",
+          "options": [
+            "Rose Tyler",
+            "Donna Noble",
+            "Martha Jones",
+            "Clara Oswald"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the Doctor's TARDIS bigger on the inside due to?",
+          "options": [
+            "Time Lord Technology",
+            "Dimensional Engineering",
+            "Psychic Circuitry",
+            "Transdimensional Engineering"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the first female incarnation of the Doctor?",
+          "options": [
+            "Rose Tyler",
+            "Clara Oswald",
+            "Martha Jones",
+            "Jodie Whittaker"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the creator and showrunner of the modern Doctor Who series?",
+          "options": [
+            "Russell T Davies",
+            "Steven Moffat",
+            "Chris Chibnall",
+            "Mark Gatiss"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who was the Doctor's companion known as 'the girl who waited'?",
+          "options": [
+            "Amy Pond",
+            "Clara Oswald",
+            "Donna Noble",
+            "River Song"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Doctor was known for his incredibly long scarf?",
+          "options": [
+            "Fourth Doctor",
+            "Seventh Doctor",
+            "Ninth Doctor",
+            "Eleventh Doctor"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who played the role of the Ninth Doctor?",
+          "options": [
+            "David Tennant",
+            "Christopher Eccleston",
+            "Matt Smith",
+            "Peter Capaldi"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which iconic monster made its first appearance in the episode 'Blink'?",
+          "options": [
+            "Daleks",
+            "Cybermen",
+            "Weeping Angels",
+            "Sontarans"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the Doctor's real name revealed to be in the episode 'The Timeless Children'?",
+          "options": [
+            "The Doctor",
+            "Theta Sigma",
+            "The Other",
+            "It remains a mystery"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which actor portrayed the first Doctor in the 2017 Christmas special 'Twice Upon a Time'?",
+          "options": [
+            "David Bradley",
+            "William Hartnell",
+            "Peter Capaldi",
+            "Matt Smith"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's nemesis, Missy, short for?",
+          "options": [
+            "Mistress",
+            "Missile",
+            "Miscreant",
+            "Mistake"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's first wife, introduced in the episode 'The Doctor's Wife'?",
+          "options": [
+            "River Song",
+            "Clara Oswald",
+            "Amy Pond",
+            "Donna Noble"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's granddaughter?",
+          "options": [
+            "Susan Foreman",
+            "Rose Tyler",
+            "Martha Jones",
+            "Donna Noble"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Time Lord society to which the Doctor belongs?",
+          "options": [
+            "The Time Lords of Gallifrey",
+            "The Council of Time",
+            "The High Council",
+            "The Order of the Time Lords"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's companion known as 'the impossible girl'?",
+          "options": [
+            "Clara Oswald",
+            "Amy Pond",
+            "Rose Tyler",
+            "Donna Noble"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Doctor regenerated into the War Doctor?",
+          "options": [
+            "Eighth Doctor",
+            "Ninth Doctor",
+            "Tenth Doctor",
+            "Eleventh Doctor"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's home planet's ruling council?",
+          "options": [
+            "The High Council of Gallifrey",
+            "The Supreme Council of Time Lords",
+            "The Gallifreyan Parliament",
+            "The Time Lord Assembly"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actress portrayed the character Missy?",
+          "options": [
+            "Michelle Gomez",
+            "Alex Kingston",
+            "Catherine Tate",
+            "Freema Agyeman"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the founder and leader of Torchwood?",
+          "options": [
+            "Jack Harkness",
+            "Martha Jones",
+            "Gwen Cooper",
+            "Yvonne Hartman"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Doctor's home planet's red grass plains?",
+          "options": [
+            "The Red Fields of Trenzalore",
+            "The Crimson Plains of Skaro",
+            "The Scarlet Wastes of Karn",
+            "The Vermillion Fields of Gallifrey"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        }
+    ]
 }

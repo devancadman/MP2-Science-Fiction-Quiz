@@ -731,3 +731,20 @@ p.correct-answer {
     background-color: var(--green);
 }
 /***** END - Level Page *****/
+
+/***** Background-Images *****/
+#home-page {
+    background: url("/assets/images/hack-pattern.webp") center center/cover repeat var(--dark-blue);
+    overflow-x: hidden !important;
+  }
+  #game-of-thrones-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/game-of-thrones.webp") center center/cover no-repeat;}
+  #scorpion-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/scorpion.webp") center center/cover no-repeat;}
+  #star-trek-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/star-trek.webp") center center/cover no-repeat;} 
+  #supernatural-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/supernatural.webp") center center/cover no-repeat;}
+  #doctor-who-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.9), rgba(5, 20, 23, 0.7)), url("/assets/images/tardis-wall.webp") center center/cover no-repeat;}
+  #big-bang-theory-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/the-big-bang-theory.webp") center center/cover no-repeat;}
+  #stranger-things-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/stranger-things.webp") center center/cover no-repeat;}
+  #star-wars-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/star-wars.webp") center center/cover no-repeat;}
+  #stargate-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/stargate.webp") center center/cover no-repeat;}
+  #harry-potter-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/harry-potter.webp") center center/cover no-repeat;}
+  /***** END - Background-Images *****/

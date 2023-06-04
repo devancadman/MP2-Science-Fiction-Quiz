@@ -322,24 +322,43 @@ img#muteIcon {
     z-index: 1;
     filter: drop-shadow(-1px 3px 8px rgba(74, 192, 219, 0.5));
     padding-bottom: 1.5rem;
-  }
-  #category-list li {
+}
+#category-list li {
     text-align: center;
     font-family: "Breamcatcher", monospace;
     display: block;
     width: 75%;
     margin: 1rem auto;
-  }
-  #category-list li a {
+}
+#category-list li a {
     padding: 8px;
     display: block;
     font-size: 18px;
     background: rgba(5,28,37,0.5);
-  }
-  #category-list li a:hover {
+}
+#category-list li a:hover {
     background-color: var(--dark-blue);
-  }
-  /***** END - Category list *****/
+}
+/***** END - Category list *****/
+
+/***** FOOTER *****/
+footer {
+    color: #fff;
+    background-color:  rgba(5, 28, 37, 0.9);
+    text-align: center;
+    padding: 2rem;
+    clip-path: polygon(5% 0%, 95% 0%, 100% 53%, 95% 100%, 5% 100%, 0% 53%);
+    margin-bottom: -4.2rem;
+}
+footer img {
+    max-height: 25px;
+    display: inline-block;
+    filter: invert(50%) sepia(100%) saturate(2295%) hue-rotate(154deg) brightness(88%) contrast(94%);
+}
+footer a {
+    color:var(--light-blue);
+}
+/***** END - Footer *****/
 
   /***** BUTTONS *****/
 .outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .mute-button {

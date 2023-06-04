@@ -230,4 +230,9 @@ document.addEventListener("DOMContentLoaded", function () {
     function hideElement(element) {
         element.style.display = "none";
     }
+
+    // Go back to the home page
+    function goBackToHome() {
+        window.location.href = "index.html";
+    }
 });

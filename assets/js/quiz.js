@@ -220,4 +220,14 @@ document.addEventListener("DOMContentLoaded", function () {
         progressText.textContent = `${Math.round(progressPercentage)}%`;
         counterText.textContent = `Question: ${currentQuestionNumber} / ${totalQuestions}`;
     }
+
+    // Show an HTML element
+    function showElement(element) {
+        element.style.display = "block";
+    }
+
+    // Hide an HTML element
+    function hideElement(element) {
+        element.style.display = "none";
+    }
 });

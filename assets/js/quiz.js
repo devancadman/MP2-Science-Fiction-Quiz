@@ -115,4 +115,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     showNextButton();
     }
+
+    // Highlight the correct answer
+    function highlightCorrectAnswer(correctIndex) {
+        const options = optionsContainer.children;
+        for (let i = 0; i < options.length; i++) {
+            if (i === correctIndex) {
+                options[i].classList.add("correct");
+            }
+        }
+    }
 });

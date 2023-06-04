@@ -1,0 +1,499 @@
+{
+    "Game of Thrones": [
+      {
+        "question": "Who is known as the 'Mother of Dragons'?",
+        "options": [
+          "Daenerys Targaryen",
+          "Tyrion Lannister",
+          "Jon Snow",
+          "Cersei Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is Arya Stark's direwolf?",
+        "options": [
+          "Lady",
+          "Ghost",
+          "Nymeria",
+          "Summer"
+        ],
+        "level": "easy",
+        "correctIndex": 2
+      },
+      {
+        "question": "Which family's motto is 'Ours is the Fury'?",
+        "options": [
+          "Lannister",
+          "Targaryen",
+          "Stark",
+          "Baratheon"
+        ],
+        "level": "easy",
+        "correctIndex": 3
+      },
+      {
+        "question": "Who is the oldest Stark sibling?",
+        "options": [
+          "Sansa Stark",
+          "Arya Stark",
+          "Bran Stark",
+          "Robb Stark"
+        ],
+        "level": "easy",
+        "correctIndex": 3
+      },
+      {
+        "question": "Who is responsible for the creation of the Night King?",
+        "options": [
+          "The Children of the Forest",
+          "The Faceless Men",
+          "The Three-Eyed Raven",
+          "The White Walkers"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who said the famous quote, 'When you play the game of thrones, you win or you die'?",
+        "options": [
+          "Tyrion Lannister",
+          "Cersei Lannister",
+          "Jaime Lannister",
+          "Petyr Baelish"
+        ],
+        "level": "easy",
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the name of Jon Snow's Valyrian steel sword?",
+        "options": [
+          "Longclaw",
+          "Ice",
+          "Needle",
+          "Oathkeeper"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which house sigil features a three-headed dragon?",
+        "options": [
+          "Targaryen",
+          "Stark",
+          "Lannister",
+          "Baratheon"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is known as 'The Imp'?",
+        "options": [
+          "Tyrion Lannister",
+          "Cersei Lannister",
+          "Jaime Lannister",
+          "Tywin Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character says the phrase, 'Valar Morghulis'?",
+        "options": [
+          "Arya Stark",
+          "Daenerys Targaryen",
+          "Jaime Lannister",
+          "Bran Stark"
+        ],
+        "level": "easy",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who was responsible for the death of King Joffrey?",
+        "options": [
+          "Olenna Tyrell",
+          "Tyrion Lannister",
+          "Sansa Stark",
+          "Jaime Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is known as the 'Red Viper'?",
+        "options": [
+          "Oberyn Martell",
+          "Euron Greyjoy",
+          "Ramsay Bolton",
+          "Theon Greyjoy"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which house's words are 'Fire and Blood'?",
+        "options": [
+          "Targaryen",
+          "Stark",
+          "Lannister",
+          "Greyjoy"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the Three-Eyed Raven?",
+        "options": [
+          "Bran Stark",
+          "Jon Snow",
+          "Jaime Lannister",
+          "Tyrion Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the leader of the Night's Watch at the beginning of the series?",
+        "options": [
+          "Jeor Mormont",
+          "Jon Snow",
+          "Alliser Thorne",
+          "Benjen Stark"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who killed Tywin Lannister?",
+        "options": [
+          "Tyrion Lannister",
+          "Cersei Lannister",
+          "Jaime Lannister",
+          "Arya Stark"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of Daenerys Targaryen's dragon that was killed by the Night King?",
+        "options": [
+          "Viserion",
+          "Rhaegal",
+          "Drogon",
+          "Drogon"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was responsible for the poisoning of King Joffrey?",
+        "options": [
+          "Olenna Tyrell",
+          "Littlefinger",
+          "Varys",
+          "Petyr Baelish"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which house has a sigil of a golden lion?",
+        "options": [
+          "Lannister",
+          "Stark",
+          "Targaryen",
+          "Greyjoy"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of Arya Stark's sword?",
+        "options": [
+          "Needle",
+          "Ice",
+          "Longclaw",
+          "Oathkeeper"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who became the ruler of the Iron Islands after the death of Balon Greyjoy?",
+        "options": [
+          "Euron Greyjoy",
+          "Theon Greyjoy",
+          "Yara Greyjoy",
+          "Asha Greyjoy"
+        ],
+        "level": "medium",
+        "correctIndex": 2
+      },
+      {
+        "question": "Which family possesses the Valyrian steel sword called 'Heartsbane'?",
+        "options": [
+          "Tarly",
+          "Tyrell",
+          "Martell",
+          "Greyjoy"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was known as the 'Queen of Thorns'?",
+        "options": [
+          "Olenna Tyrell",
+          "Cersei Lannister",
+          "Margaery Tyrell",
+          "Ellaria Sand"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character said the phrase, 'Chaos isn't a pit. Chaos is a ladder'?",
+        "options": [
+          "Petyr Baelish",
+          "Varys",
+          "Tywin Lannister",
+          "Ramsay Bolton"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the nickname given to Jaime Lannister?",
+        "options": [
+          "Kingslayer",
+          "The Hound",
+          "The Mountain",
+          "The Imp"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was Sansa Stark's first husband?",
+        "options": [
+          "Tyrion Lannister",
+          "Ramsay Bolton",
+          "Joffrey Baratheon",
+          "Robb Stark"
+        ],
+        "level": "medium",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who delivered the fatal blow to the Night King?",
+        "options": [
+          "Arya Stark",
+          "Jon Snow",
+          "Daenerys Targaryen",
+          "Bran Stark"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the commander of the Unsullied?",
+        "options": [
+          "Grey Worm",
+          "Barristan Selmy",
+          "Jorah Mormont",
+          "Missandei"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character says the phrase, 'I drink and I know things'?",
+        "options": [
+          "Tyrion Lannister",
+          "Bronn",
+          "Jaqen H'ghar",
+          "Beric Dondarrion"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who served as Hand of the King to Joffrey Baratheon?",
+        "options": [
+          "Tyrion Lannister",
+          "Tywin Lannister",
+          "Petyr Baelish",
+          "Varys"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who killed Oberyn Martell in a trial by combat?",
+        "options": [
+          "The Mountain",
+          "Tyrion Lannister",
+          "Bronn",
+          "Barristan Selmy"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character was responsible for the death of Ramsay Bolton?",
+        "options": [
+          "Sansa Stark",
+          "Arya Stark",
+          "Theon Greyjoy",
+          "Jon Snow"
+        ],
+        "level": "hard",
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the name of the sword wielded by Brienne of Tarth?",
+        "options": [
+          "Oathkeeper",
+          "Widow's Wail",
+          "Ice",
+          "Longclaw"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the father of Lyanna Stark's son?",
+        "options": [
+          "Rhaegar Targaryen",
+          "Robert Baratheon",
+          "Ned Stark",
+          "Brandon Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character was the first to say, 'Winter is coming' in the TV series?",
+        "options": [
+          "Ned Stark",
+          "Jon Snow",
+          "Robb Stark",
+          "Bran Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who was known as the 'Mad King'?",
+        "options": [
+          "Aerys II Targaryen",
+          "Robert Baratheon",
+          "Joffrey Baratheon",
+          "Stannis Baratheon"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who killed the Night King?",
+        "options": [
+          "Arya Stark",
+          "Jon Snow",
+          "Bran Stark",
+          "Daenerys Targaryen"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of Jon Snow's direwolf?",
+        "options": [
+          "Ghost",
+          "Summer",
+          "Grey Wind",
+          "Shaggydog"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the rightful heir to the Iron Throne?",
+        "options": [
+          "Jon Snow",
+          "Daenerys Targaryen",
+          "Cersei Lannister",
+          "Gendry Baratheon"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of the gigantic ice wall that separates the Seven Kingdoms from the lands beyond?",
+        "options": [
+          "The Wall",
+          "The Shield",
+          "The Barrier",
+          "The Divide"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the creator of the Night King in the TV series?",
+        "options": [
+          "The Children of the Forest",
+          "Bran Stark",
+          "The Faceless Men",
+          "The Lord of Light"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character said the phrase, 'A girl is Arya Stark of Winterfell. And I'm going home'?",
+        "options": [
+          "Arya Stark",
+          "Sansa Stark",
+          "Brienne of Tarth",
+          "Catelyn Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was the first King in the North?",
+        "options": [
+          "Robb Stark",
+          "Bran the Builder",
+          "Torghen Flint",
+          "Jon Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who was the mastermind behind the 'Red Wedding'?",
+        "options": [
+          "Tywin Lannister",
+          "Roose Bolton",
+          "Walder Frey",
+          "Littlefinger"
+        ],
+        "level": "hard",
+        "correctIndex": 2
+      },
+      {
+        "question": "What is the name of the ancestral castle of House Stark?",
+        "options": [
+          "Winterfell",
+          "Casterly Rock",
+          "Highgarden",
+          "Dragonstone"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      }
+    ]
+}

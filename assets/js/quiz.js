@@ -80,4 +80,39 @@ document.addEventListener("DOMContentLoaded", function () {
         showElement(questionContainer);
         updateProgressText();
     }
+
+     // Check the selected answer
+    function checkAnswer(selectedIndex, optionElement) {
+    const currentQuestion = questions[questionIndices[currentQuestionIndex]];
+    const correctIndex = currentQuestion.correctIndex;
+
+    if (selectedIndex === correctIndex) {
+        optionElement.classList.add("correct");
+        score++;
+        resultText.textContent = "Correct!";
+        resultText.style.color = "green";
+        const answeredQuestion = {
+        question: currentQuestion.question,
+        answer: currentQuestion.options[selectedIndex],
+        isCorrect: true
+        };
+        answeredQuestions.push(answeredQuestion);
+    } else {
+        optionElement.classList.add("wrong");
+        resultText.textContent = "Wrong!";
+        resultText.style.color = "red";
+        highlightCorrectAnswer(correctIndex);
+        const answeredQuestion = {
+        question: currentQuestion.question,
+        answer: currentQuestion.options[selectedIndex],
+        correctAnswer: currentQuestion.options[correctIndex],
+        isCorrect: false
+        };
+        answeredQuestions.push(answeredQuestion);
+    }
+
+    disableOptions(); // Disable all buttons after answering
+
+    showNextButton();
+    }
 });

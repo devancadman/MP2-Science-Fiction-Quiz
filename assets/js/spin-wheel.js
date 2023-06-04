@@ -96,3 +96,10 @@ const createConicGradient = () => {
         `background: conic-gradient(from -90deg, ${categories.map(({ color }, i) => `${color} 0 ${(100 / categories.length) * (categories.length - i)}%`).reverse()});`
     );
 };
+
+// Set up the wheel
+const setupWheel = () => {
+    createConicGradient();
+    createCategoryNodes();
+    categoryNodes = wheel.querySelectorAll(".category");
+};

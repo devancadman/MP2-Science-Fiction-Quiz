@@ -53,4 +53,31 @@ document.addEventListener("DOMContentLoaded", function () {
         [array[i], array[j]] = [array[j], array[i]];
         }
     }
+
+    // Display the current question
+    function showQuestion() {
+        if (currentQuestionIndex >= Math.min(maxQuestions, questionIndices.length)) {
+        showResult();
+        return;
+        }
+
+        const currentQuestion = questions[questionIndices[currentQuestionIndex]];
+        questionText.textContent = currentQuestion.question;
+
+        optionsContainer.innerHTML = "";
+
+        currentQuestion.options.forEach(function (option, index) {
+        const optionElement = document.createElement("button");
+        optionElement.classList.add("option");
+        optionElement.textContent = option;
+        optionElement.addEventListener("click", function () {
+            checkAnswer(index, optionElement);
+        });
+
+        optionsContainer.appendChild(optionElement);
+        });
+
+        showElement(questionContainer);
+        updateProgressText();
+    }
 });

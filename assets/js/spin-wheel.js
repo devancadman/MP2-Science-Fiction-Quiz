@@ -103,3 +103,13 @@ const setupWheel = () => {
     createCategoryNodes();
     categoryNodes = wheel.querySelectorAll(".category");
 };
+
+// Select the category after spinning the wheel
+const selectCategory = () => {
+    const selected = Math.floor(rotation / categoriesSlice);
+    categoryNodes[selected].classList.add(selectedClass);
+    const url = categoryNodes[selected].dataset.url;
+    if (url) {
+        window.location.href = url;
+    }
+};

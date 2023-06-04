@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.id = customPageId;
     }
 
-     // Add an ID to the home page and include an audio element
+    // Add an ID to the home page and include an audio element
     if (category === null) {
         document.body.id = "home-page";
 
@@ -84,6 +84,80 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
         // Update the audio source based on the selected category and set custom page ID
         updateAudioSource(category);
-  }
+    }
 
+    // Mute Button add/remove class muted
+    document.getElementById("mute-button").addEventListener("click", function() {
+        if (isSoundMuted) {
+        isSoundMuted = false;
+        this.classList.remove("muted");
+        } else {
+        isSoundMuted = true;
+        this.classList.add("muted");
+        }
+    });
+
+    // Music play/pause with image change
+    var track = document.getElementById('track');
+    var controlBtn = document.getElementById('play-pause');
+    var muteIcon = document.getElementById("muteIcon");
+    track.volume = 0.5; // Adjust the volume level (0.0 to 1.0)
+    var isPlaying = false;
+
+    function playPause() {
+        if (!isPlaying) {
+            track.play()
+            .then(function() {
+                controlBtn.classList.remove("play");
+                controlBtn.classList.add("pause");
+                muteIcon.src = "./assets/images/pause.png";
+                muteIcon.alt = "unmuted";
+                isPlaying = true;
+            })
+            .catch(function(error) {
+                console.log("Failed to play the audio: " + error.message);
+            });
+        } else {
+            track.pause();
+            controlBtn.classList.remove("pause");
+            controlBtn.classList.add("play");
+            muteIcon.src = "./assets/images/play.png";
+            muteIcon.alt = "muted";
+            isPlaying = false;
+        }
+    }
+
+    // Call playPause() to set initial state
+    playPause();
+
+    controlBtn.addEventListener("click", playPause);
+    track.addEventListener("ended", function() {
+        controlBtn.className = "play";
+        muteIcon.src = "./assets/images/play.png";
+        muteIcon.alt = "muted";
+        isPlaying = false;
+    });
+
+    /// Play/Pause functionality for home audio
+    if (document.body.id === "home-page") {
+    var homeAudio = document.getElementById("home-audio");
+    var playPauseBtn = document.getElementById("play-pause");
+    var muteIcon = document.getElementById("muteIcon");
+
+    playPauseBtn.addEventListener("click", function() {
+        if (homeAudio.paused) {
+        homeAudio.play();
+        playPauseBtn.classList.remove("play");
+        playPauseBtn.classList.add("pause");
+        muteIcon.src = "./assets/images/pause.png";
+        muteIcon.alt = "unmuted";
+        } else {
+        homeAudio.pause();
+        playPauseBtn.classList.remove("pause");
+        playPauseBtn.classList.add("play");
+        muteIcon.src = "./assets/images/play.png";
+        muteIcon.alt = "muted";
+        }
+    });
+    }
 });

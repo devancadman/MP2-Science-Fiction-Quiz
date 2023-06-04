@@ -3593,5 +3593,536 @@
           "level": "hard",
           "correctIndex": 0
         }
+    ],
+
+    "Star Wars": [
+        {
+          "question": "Who is Luke Skywalker's sister?",
+          "options": [
+            "Leia Organa",
+            "Rey",
+            "Padmé Amidala",
+            "Ahsoka Tano"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the main antagonist in the original trilogy?",
+          "options": [
+            "Darth Vader",
+            "Emperor Palpatine",
+            "Kylo Ren",
+            "General Grievous"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the weapon used by Jedi Knights?",
+          "options": [
+            "Lightsaber",
+            "Blaster",
+            "Bowcaster",
+            "Ion Blaster"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the famous quote associated with the Star Wars franchise?",
+          "options": [
+            "May the Force be with you",
+            "Live long and prosper",
+            "I'll be back",
+            "May the odds be ever in your favor"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the Millennium Falcon?",
+          "options": [
+            "Han Solo",
+            "Chewbacca",
+            "Lando Calrissian",
+            "Obi-Wan Kenobi"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the desert planet in the original Star Wars film?",
+          "options": [
+            "Tatooine",
+            "Hoth",
+            "Endor",
+            "Jakku"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who trained Luke Skywalker in the ways of the Jedi?",
+          "options": [
+            "Obi-Wan Kenobi",
+            "Yoda",
+            "Qui-Gon Jinn",
+            "Mace Windu"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Han Solo's ship?",
+          "options": [
+            "Millennium Falcon",
+            "Star Destroyer",
+            "X-wing",
+            "TIE Fighter"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the wise Jedi Master known for his unique way of speaking?",
+          "options": [
+            "Yoda",
+            "Darth Maul",
+            "Count Dooku",
+            "Qui-Gon Jinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the evil Sith Lord who serves as the main antagonist in the prequel trilogy?",
+          "options": [
+            "Darth Maul",
+            "Darth Sidious",
+            "Darth Vader",
+            "Darth Tyranus"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the peaceful home planet of the Wookiee species?",
+          "options": [
+            "Kashyyyk",
+            "Naboo",
+            "Endor",
+            "Dagobah"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the droid companion of Luke Skywalker?",
+          "options": [
+            "R2-D2",
+            "C-3PO",
+            "BB-8",
+            "K-2SO"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the organization that opposes the Galactic Empire?",
+          "options": [
+            "Rebel Alliance",
+            "First Order",
+            "Resistance",
+            "Trade Federation"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Sith Lord known as Darth Vader?",
+          "options": [
+            "Anakin Skywalker",
+            "Luke Skywalker",
+            "Obi-Wan Kenobi",
+            "Mace Windu"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the furry species that Chewbacca belongs to?",
+          "options": [
+            "Wookiee",
+            "Ewok",
+            "Jawa",
+            "Togruta"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the pilot of the X-wing starfighter and a skilled leader in the Rebel Alliance?",
+          "options": [
+            "Luke Skywalker",
+            "Poe Dameron",
+            "Anakin Skywalker",
+            "Wedge Antilles"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the bounty hunter who captures Han Solo in 'The Empire Strikes Back'?",
+          "options": [
+            "Boba Fett",
+            "Jango Fett",
+            "Dengar",
+            "Bossk"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the mastermind behind the creation of the Death Star?",
+          "options": [
+            "Wilhuff Tarkin",
+            "Darth Sidious",
+            "Director Orson Krennic",
+            "Galen Erso"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the planet destroyed by the Death Star in the original 'Star Wars' film?",
+          "options": [
+            "Alderaan",
+            "Tatooine",
+            "Coruscant",
+            "Naboo"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the leader of the Separatist Alliance during the Clone Wars?",
+          "options": [
+            "Count Dooku",
+            "General Grievous",
+            "Nute Gunray",
+            "Poggle the Lesser"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which planet is the main setting for 'The Force Awakens'?",
+          "options": [
+            "Jakku",
+            "D'Qar",
+            "Ahch-To",
+            "Takodana"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Anakin Skywalker's Padawan apprentice in 'The Clone Wars' animated series?",
+          "options": [
+            "Ahsoka Tano",
+            "Barriss Offee",
+            "Shaak Ti",
+            "Luminara Unduli"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrays Obi-Wan Kenobi in the prequel trilogy?",
+          "options": [
+            "Ewan McGregor",
+            "Alec Guinness",
+            "Liam Neeson",
+            "Hayden Christensen"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the organization that builds and maintains the droids in the 'Star Wars' universe?",
+          "options": [
+            "Cybernetics Corporation",
+            "DroidWorks",
+            "Galactic Robotics",
+            "Industrial Automaton"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the leader of the Knights of Ren in the sequel trilogy?",
+          "options": [
+            "Kylo Ren",
+            "Snoke",
+            "General Hux",
+            "Captain Phasma"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the forest moon that serves as the base for the Rebel Alliance in 'Return of the Jedi'?",
+          "options": [
+            "Endor",
+            "Yavin",
+            "Kashyyyk",
+            "Mustafar"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Rebel Alliance's ace pilot who destroys the second Death Star in 'Return of the Jedi'?",
+          "options": [
+            "Lando Calrissian",
+            "Wedge Antilles",
+            "Poe Dameron",
+            "Nien Nunb"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the city-planet that serves as the capital of the Galactic Republic?",
+          "options": [
+            "Coruscant",
+            "Bespin",
+            "Naboo",
+            "Kamino"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the leader of the Gungan species in 'The Phantom Menace'?",
+          "options": [
+            "Boss Nass",
+            "Jar Jar Binks",
+            "Rugor Nass",
+            "Captain Tarpals"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Sith apprentice to Darth Sidious in 'Revenge of the Sith'?",
+          "options": [
+            "Darth Maul",
+            "Darth Tyranus",
+            "Darth Vader",
+            "Darth Plagueis"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which bounty hunter is known for wearing Mandalorian armor and carrying a jetpack?",
+          "options": [
+            "Boba Fett",
+            "Jango Fett",
+            "Cad Bane",
+            "Zam Wesell"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Sith home planet?",
+          "options": [
+            "Korriban",
+            "Dathomir",
+            "Exegol",
+            "Malachor V"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Sith Lord who is considered the founder of the Sith Order?",
+          "options": [
+            "Darth Bane",
+            "Darth Revan",
+            "Darth Nihilus",
+            "Darth Malgus"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Jedi Master who discovered the secret to immortality and became one with the Force?",
+          "options": [
+            "Qui-Gon Jinn",
+            "Mace Windu",
+            "Obi-Wan Kenobi",
+            "Yoda"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the famous podracer who wins the Boonta Eve Classic in 'The Phantom Menace'?",
+          "options": [
+            "Sebulba",
+            "Anakin Skywalker",
+            "Ben Quadinaros",
+            "Gasgano"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the actor behind the iconic voice of Darth Vader?",
+          "options": [
+            "James Earl Jones",
+            "David Prowse",
+            "Hayden Christensen",
+            "Frank Oz"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Wookiee home planet?",
+          "options": [
+            "Kashyyyk",
+            "Endor",
+            "Naboo",
+            "Hoth"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Star Wars film was directed by Rian Johnson?",
+          "options": [
+            "The Last Jedi",
+            "The Force Awakens",
+            "Rogue One",
+            "Solo: A Star Wars Story"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Jedi homeworld?",
+          "options": [
+            "Tython",
+            "Ilum",
+            "Lothal",
+            "Ahch-To"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the first character to speak in the original 1977 'Star Wars' film?",
+          "options": [
+            "C-3PO",
+            "R2-D2",
+            "Princess Leia",
+            "Darth Vader"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Mandalorian bounty hunter in the Disney+ series 'The Mandalorian'?",
+          "options": [
+            "Din Djarin",
+            "Boba Fett",
+            "Jango Fett",
+            "Cobb Vanth"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is the mother of Anakin Skywalker?",
+          "options": [
+            "Shmi Skywalker",
+            "Padmé Amidala",
+            "Mara Jade",
+            "Aayla Secura"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Sith artifact that contains the spirits of Sith Lords?",
+          "options": [
+            "Holocron",
+            "Dark Side Talisman",
+            "Sith Mask",
+            "Sith Holocron"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is known for the line 'It's a trap!'?",
+          "options": [
+            "Admiral Ackbar",
+            "Lando Calrissian",
+            "Han Solo",
+            "Mon Mothma"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the criminal organization led by Dryden Vos in 'Solo: A Star Wars Story'?",
+          "options": [
+            "Crimson Dawn",
+            "Black Sun",
+            "Shadow Collective",
+            "Pyke Syndicate"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the actor behind the character Han Solo in the original trilogy?",
+          "options": [
+            "Harrison Ford",
+            "Mark Hamill",
+            "Carrie Fisher",
+            "Peter Mayhew"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Jedi weapon that is passed down through generations?",
+          "options": [
+            "Lightsaber",
+            "Blaster",
+            "Ion Blaster",
+            "Force Pike"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is responsible for destroying the Death Star in 'A New Hope'?",
+          "options": [
+            "Luke Skywalker",
+            "Han Solo",
+            "Leia Organa",
+            "Wedge Antilles"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        }
     ]
 }

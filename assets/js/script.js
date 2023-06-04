@@ -65,5 +65,25 @@ document.addEventListener("DOMContentLoaded", function () {
   
       document.body.id = customPageId;
     }
-    
+
+     // Add an ID to the home page and include an audio element
+    if (category === null) {
+        document.body.id = "home-page";
+
+        // Create the audio element
+        var homeAudio = document.createElement("audio");
+        homeAudio.id = "home-audio";
+        homeAudio.src = "./assets/audio/artificial-intelligence-ai.mp3";
+        homeAudio.autoplay = true;
+        homeAudio.loop = true;
+        homeAudio.volume = 0.1; // Adjust the volume level (0.0 to 1.0)
+
+        // Append the audio element to the body
+        document.body.appendChild(homeAudio);
+        
+    } else {
+        // Update the audio source based on the selected category and set custom page ID
+        updateAudioSource(category);
+  }
+
 });

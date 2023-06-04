@@ -585,3 +585,30 @@ dialog p {
     padding: 1rem;
 }
 /***** END - DIALOG / MODAL *****/
+
+/***** HOW TO PLAY *****/
+#howtoplay-container  ul {
+    text-align: left;
+}
+#howtoplay-container li {
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 2rem;
+}
+#howtoplay-container li:before {
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Orbitron';
+}
+#howtoplay-container {
+    counter-reset: item;
+}
+#howtoplay-container li:before {
+    counter-increment: item;
+    content: counter(item)")";
+}
+/***** END - How to play *****/

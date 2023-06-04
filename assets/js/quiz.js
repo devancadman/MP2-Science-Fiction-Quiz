@@ -45,4 +45,12 @@ document.addEventListener("DOMContentLoaded", function () {
         questionIndices = Array.from({ length: questions.length }, (_, index) => index);
         shuffleArray(questionIndices);
     }
+
+    // Shuffle array randomly
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
 });

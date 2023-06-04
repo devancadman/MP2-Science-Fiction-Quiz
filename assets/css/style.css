@@ -32,7 +32,7 @@
 
 body {
     font-family: "Orbitron", monospace;
-    cursor: url("/assets/images/arrow.png") 0 0, pointer;
+    cursor: url("../images/arrow.png") 0 0, pointer;
     background: var(--dark-blue);
     padding:5rem;
     margin-bottom: 5rem;
@@ -125,7 +125,7 @@ header {
     left: 5%;
     width: 30px;
     height: 30px;
-    background-image: url(/assets/favicon/favicon.png);
+    background-image: url("../favicon/favicon.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -362,20 +362,20 @@ footer a {
 
   /***** BUTTONS *****/
 .outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .mute-button {
-    cursor: url("/assets/images/arrow.png") 0 0, pointer;
+    cursor: url("../images/arrow.png") 0 0, pointer;
   }
   .sound-button {
     width:56.7px;
   }
   .mute-button {
-    background: url("/assets/images/audio-on.png") center center/40px no-repeat var(--border-blue);
+    background: url("../images/audio-on.png") center center/40px no-repeat var(--border-blue);
     height: 50px;
     width: 56.7px;
     border: none;
     z-index: 5;
   }
   .mute-button.muted {
-    background: url("/assets/images/audio-off.png") center center/40px no-repeat var(--border-blue);
+    background: url("../images/audio-off.png") center center/40px no-repeat var(--border-blue);
   }
   .outline-btn {
     display: inline-flex;
@@ -734,19 +734,19 @@ p.correct-answer {
 
 /***** Background-Images *****/
 #home-page {
-    background: url("/assets/images/hack-pattern.webp") center center/cover repeat var(--dark-blue);
+    background: url("../images/hack-pattern.webp") center center/cover repeat var(--dark-blue);
     overflow-x: hidden !important;
 }
-#game-of-thrones-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/game-of-thrones.webp") center center/cover no-repeat;}
-#scorpion-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/scorpion.webp") center center/cover no-repeat;}
-#star-trek-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/star-trek.webp") center center/cover no-repeat;} 
-#supernatural-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/supernatural.webp") center center/cover no-repeat;}
-#doctor-who-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.9), rgba(5, 20, 23, 0.7)), url("/assets/images/tardis-wall.webp") center center/cover no-repeat;}
-#big-bang-theory-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/the-big-bang-theory.webp") center center/cover no-repeat;}
-#stranger-things-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/stranger-things.webp") center center/cover no-repeat;}
-#star-wars-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/star-wars.webp") center center/cover no-repeat;}
-#stargate-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/stargate.webp") center center/cover no-repeat;}
-#harry-potter-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("/assets/images/harry-potter.webp") center center/cover no-repeat;}
+#game-of-thrones-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/game-of-thrones.webp") center center/cover no-repeat;}
+#scorpion-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/scorpion.webp") center center/cover no-repeat;}
+#star-trek-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/star-trek.webp") center center/cover no-repeat;} 
+#supernatural-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/supernatural.webp") center center/cover no-repeat;}
+#doctor-who-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.9), rgba(5, 20, 23, 0.7)), url("../images/tardis-wall.webp") center center/cover no-repeat;}
+#big-bang-theory-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/the-big-bang-theory.webp") center center/cover no-repeat;}
+#stranger-things-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/stranger-things.webp") center center/cover no-repeat;}
+#star-wars-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/star-wars.webp") center center/cover no-repeat;}
+#stargate-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/stargate.webp") center center/cover no-repeat;}
+#harry-potter-page {background: linear-gradient(0deg, rgba(5, 20, 23, 0.5), rgba(5, 20, 23, 0.9)), url("../images/harry-potter.webp") center center/cover no-repeat;}
 /***** END - Background-Images *****/
 
 /***** Blink - Old Tv style Fuzzy Screen *****/
@@ -855,7 +855,7 @@ p.correct-answer {
     align-items: center;
     justify-content: center;
     z-index: 99999;
-    background: linear-gradient(0deg, rgba(5, 20, 23, 0.8), rgba(5, 20, 23, 0.8)), url("/assets/favicon/favicon.png") center var(--dark-blue);
+    background: linear-gradient(0deg, rgba(5, 20, 23, 0.8), rgba(5, 20, 23, 0.8)), url("../favicon/favicon.png") center var(--dark-blue);
     -webkit-animation: bg-scrolling-reverse 10s infinite;
     /* Safari 4+ */
     -moz-animation: bg-scrolling-reverse 10s infinite;

@@ -158,4 +158,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         updateProgressText();
     }
+
+    // Check if the current question is answered
+    function isAnswered() {
+        const options = optionsContainer.children;
+        for (let i = 0; i < options.length; i++) {
+        if (options[i].classList.contains("correct") || options[i].classList.contains("wrong")) {
+            return true;
+        }
+        }
+        return false;
+    }
 });

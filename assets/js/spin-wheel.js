@@ -141,3 +141,73 @@ const runTickerAnimation = () => {
 
     tickerAnim = requestAnimationFrame(runTickerAnimation);
 };
+
+// Event listener for the spin button click
+trigger.addEventListener("click", () => {
+    trigger.disabled = true;
+    rotation = Math.floor(Math.random() * 360 + spinertia(2000, 5000));
+    categoryNodes.forEach((category) => category.classList.remove(selectedClass));
+    wheel.classList.add(spinClass);
+    spinner.style.setProperty("--rotate", rotation);
+    ticker.style.animation = "none";
+
+    // Play the spin sound
+    spinSound.currentTime = 0;
+    spinSound.play();
+
+    runTickerAnimation();
+});
+
+// Event listener for the transition end of the spinner
+spinner.addEventListener("transitionend", () => {
+    cancelAnimationFrame(tickerAnim);
+    trigger.disabled = false;
+    trigger.focus();
+    rotation %= 360;
+    selectCategory();
+    wheel.classList.remove(spinClass);
+    spinner.style.setProperty("--rotate", rotation);
+
+    // Stop the spin sound
+    spinSound.pause();
+    spinSound.currentTime = 0;
+});
+
+// Event listener for the spin sound button click
+var isSoundMuted = false;
+
+document.querySelector(".btn-spin").addEventListener("click", function() {
+    if (!isSoundMuted) {
+        spinSound.play();
+        setTimeout(function() {
+        spinSound.pause();
+        spinSound.currentTime = 0;
+        }, spinDuration);
+    }
+});
+
+// Event listener for the mute button click
+document.getElementById("mute-button").addEventListener("click", function() {
+    if (isSoundMuted) {
+        spinSound.muted = false;
+        this.classList.remove("muted");
+    } else {
+        spinSound.muted = true;
+        this.classList.add("muted");
+    }
+});
+
+// Event listener for the mute button click to mute/unmute spin sounds
+document.getElementById("mute-button").addEventListener("click", function() {
+    if (isSoundMuted) {
+        isSoundMuted = false;
+        spinSound.muted = false;
+        this.classList.remove("muted");
+    } else {
+        isSoundMuted = true;
+        spinSound.muted = true;
+        this.classList.add("muted");
+    }
+});
+
+setupWheel();

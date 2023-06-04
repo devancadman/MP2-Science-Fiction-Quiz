@@ -235,7 +235,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function goBackToHome() {
         window.location.href = "index.html";
     }
-    
+
+    // Event listeners
+    nextButton.addEventListener("click", nextQuestion);
+    homeButton.addEventListener("click", goBackToHome);
+
   // Fetch questions when the DOM is loaded
   fetchQuestions();
 });

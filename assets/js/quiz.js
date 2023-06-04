@@ -39,4 +39,10 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Error fetching questions:", error);
         });
     }
+
+    // Generate random indices for the questions
+    function generateQuestionIndices() {
+        questionIndices = Array.from({ length: questions.length }, (_, index) => index);
+        shuffleArray(questionIndices);
+    }
 });

@@ -207,3 +207,35 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     })
 });
+
+/* Click to Play Screen overlay */
+  window.addEventListener('DOMContentLoaded', function() {
+    var overlay = document.getElementById('overlay');
+    var audioElements = document.querySelectorAll('audio');
+    var body = document.body;
+    var hoverSound = new Audio('./assets/audio/button-hover-future.wav');
+  
+    var hasVisitedBefore = localStorage.getItem('hasVisited'); // Check if the user has visited before
+  
+    if (!hasVisitedBefore) { // Show the overlay only for first-time visitors
+      overlay.style.display = 'flex';
+      body.style.overflow = 'hidden';
+      hoverSound.muted = true; // Mute the hover sound initially
+      localStorage.setItem('hasVisited', true); // Store the visitor's status
+    }
+  
+    overlay.addEventListener('click', function() {
+      overlay.style.display = 'none';
+      audioElements.forEach(function(audio) { // Unmute all audio elements
+        audio.muted = false;
+      });
+      hoverSound.muted = false; // Unmute the hover sound
+      body.style.overflow = 'auto';
+    });
+  
+    audioElements.forEach(function(audio) {
+      audio.muted = true; // Mute all audio elements initially
+    });
+  
+    hoverSound.muted = true; // Mute the hover sound initially
+  });

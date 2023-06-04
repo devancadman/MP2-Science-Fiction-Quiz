@@ -133,4 +133,9 @@ document.addEventListener("DOMContentLoaded", function () {
         options[i].disabled = true; // Disable all buttons
         }
     }
+
+    // Show the next button
+    function showNextButton() {
+        nextButton.style.display = "block";
+    }
 });

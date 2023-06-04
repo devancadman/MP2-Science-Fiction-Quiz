@@ -527,4 +527,61 @@ footer a {
   .blue-btn:hover:after, .blue-btn:hover:before {
     background-color:var(--light-blue);
   }
-  /***** END - Buttons *****/
+/***** END - Buttons *****/
+
+/***** DIALOG / MODAL *****/
+dialog {
+    z-index: 10;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(5,28,37);
+    color: #fff;
+    box-shadow: 0px 0px 4px 2px rgba(74, 192, 219, 0.5);
+    border: 2px solid rgba(74, 192, 219, 0.5);
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    max-height: 450px;
+}
+dialog .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 1;
+    letter-spacing: normal;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    cursor:pointer;
+}
+dialog .close-btn:hover, dialog .close-btn:active {
+    color:#fff;
+    background-color: var(--light-blue);
+    transition: all .25s;
+}
+.modal {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 3rem;
+    box-sizing: border-box;
+    max-width: 450px;
+    width: 80vw;
+    margin: 0 auto;
+}
+dialog p {
+    margin: 0 0 2rem;
+    padding: 1rem;
+}
+/***** END - DIALOG / MODAL *****/

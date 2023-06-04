@@ -57,3 +57,20 @@ const categories = [
     }
   ];
   
+// Getting references to various elements
+const wheel = document.querySelector(".category-wheel");
+const spinner = wheel.querySelector(".spinner");
+const trigger = wheel.querySelector(".btn-spin");
+const ticker = wheel.querySelector(".ticker");
+const spinSound = document.getElementById("spinSound");
+const categoriesSlice = 360 / categories.length;
+const categoryOffset = Math.floor(180 / categories.length);
+const spinClass = "is-spinning";
+const selectedClass = "selected";
+const spinnerStyles = window.getComputedStyle(spinner);
+
+// Variables for wheel spin logic
+let tickerAnim;
+let rotation = 0;
+let currentSlice = 0;
+let categoryNodes;

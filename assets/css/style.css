@@ -695,3 +695,39 @@ p.correct-answer {
     color:#fff;
 }
 /***** END - Results *****/
+
+/***** LEVEL PAGE *****/
+.level .grid {
+    grid-template-columns: 1fr;
+    padding:2rem 0;
+}
+.level h2 {
+    text-align:center;
+}
+.level #level-menu {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.level .correct:hover:before, .level .wrong:hover:before  {
+    left: 20px;
+}
+.level .correct:hover:after, .level .wrong:hover:after {
+    right: 20px;
+}
+.level .wrong:before, .level .wrong:after {
+    background: var(--border-red);
+}
+.level .wrong:hover:after, .level .wrong:hover:before {
+    background-color: var(--red);
+}
+.level .correct:before, .level .correct:after {
+    background: var(--border-green);
+}
+.level .correct:hover:after, .level .correct:hover:before {
+    background-color: var(--green);
+}
+/***** END - Level Page *****/

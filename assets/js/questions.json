@@ -495,5 +495,525 @@
         "level": "hard",
         "correctIndex": 0
       }
+    ],
+
+    "Scorpion": [
+        {
+          "question": "What is the name of the main character in Scorpion?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which U.S. government agency recruits the team in Scorpion?",
+          "options": [
+            "Department of Homeland Security",
+            "Central Intelligence Agency",
+            "Federal Bureau of Investigation",
+            "National Security Agency"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the team's special ability in Scorpion?",
+          "options": [
+            "Genius-level intelligence",
+            "Super strength",
+            "Telepathy",
+            "Invisibility"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the team leader in Scorpion?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a mechanical prodigy and builds amazing inventions?",
+          "options": [
+            "Ralph Dineen",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the team's name in Scorpion?",
+          "options": [
+            "Scorpion",
+            "Genius Squad",
+            "Tech Force",
+            "Brainiacs"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a behaviorist and expert in reading people?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the team's mechanical expert and a gifted mechanic?",
+          "options": [
+            "Happy Quinn",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the federal agent who initially recruits the team?",
+          "options": [
+            "Cabe Gallo",
+            "Adriana Molina",
+            "Megan O'Brien",
+            "Ray Spiewack"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the team's base of operations in Scorpion?",
+          "options": [
+            "The Garage",
+            "The Hive",
+            "The Lair",
+            "The Workshop"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is a math prodigy and a human calculator?",
+          "options": [
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Happy Quinn",
+            "Walter O'Brien"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the primary goal of the team in Scorpion?",
+          "options": [
+            "Solve complex crimes",
+            "Save lives",
+            "Conduct espionage",
+            "Hack into government systems"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is a mechanical prodigy and builds amazing inventions?",
+          "options": [
+            "Ralph Dineen",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the team's name in Scorpion?",
+          "options": [
+            "Scorpion",
+            "Genius Squad",
+            "Tech Force",
+            "Brainiacs"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a behaviorist and expert in reading people?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the team's mechanical expert and a gifted mechanic?",
+          "options": [
+            "Happy Quinn",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is Walter O'Brien's highest recorded IQ in Scorpion?",
+          "options": [
+            "197",
+            "180",
+            "212",
+            "195"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which member of the team has a fear of flying?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who becomes Paige Dineen's love interest in Scorpion?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Cabe Gallo"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Ralph Dineen's mother in Scorpion?",
+          "options": [
+            "Megan O'Brien",
+            "Adriana Molina",
+            "Linda",
+            "Veronica Dineen"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the real name of the hacker 'Scorpion' who inspired the TV series?",
+          "options": [
+            "Kevin Mitnick",
+            "Adrian Lamo",
+            "Albert Gonzalez",
+            "Gary McKinnon"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who becomes the team's attorney and legal advisor in Scorpion?",
+          "options": [
+            "Cabe Gallo",
+            "Ray Spiewack",
+            "Happy Quinn",
+            "Paige Dineen"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the technology company owned by Walter O'Brien in Scorpion?",
+          "options": [
+            "ScorpionTech",
+            "WizTech",
+            "O'Brien Systems",
+            "KarmaTech"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the first member of the team to join Scorpion?",
+          "options": [
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn",
+            "Paige Dineen"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the primary reason Walter O'Brien forms the team in Scorpion?",
+          "options": [
+            "To solve complex puzzles",
+            "To save lives",
+            "To build advanced technology",
+            "To prove his genius"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character suffers from severe anxiety and panic attacks in Scorpion?",
+          "options": [
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Happy Quinn"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the team's motto in Scorpion?",
+          "options": [
+            "Genius in action",
+            "Think, Adapt, Overcome",
+            "Smarter together",
+            "Unleash the mind"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Walter O'Brien's sister in Scorpion?",
+          "options": [
+            "Megan",
+            "Paige",
+            "Linda",
+            "Veronica"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the real-life profession of Walter O'Brien, the inspiration behind the character in Scorpion?",
+          "options": [
+            "Computer programmer",
+            "Aerospace engineer",
+            "Cybersecurity expert",
+            "Musician"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which member of the team has a gambling addiction in Scorpion?",
+          "options": [
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Happy Quinn",
+            "Walter O'Brien"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Toby Curtis' ex-wife in Scorpion?",
+          "options": [
+            "Amy",
+            "Linda",
+            "Megan",
+            "Paige"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the real reason behind Walter O'Brien's decision to form the team in Scorpion?",
+          "options": [
+            "To save his sister",
+            "To stop a global conspiracy",
+            "To redeem his past mistakes",
+            "To find his long-lost father"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character on Scorpion has a condition called Tetrachromacy?",
+          "options": [
+            "Paige Dineen",
+            "Happy Quinn",
+            "Sylvester Dodd",
+            "Walter O'Brien"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who was the initial target of the team's first mission in Scorpion?",
+          "options": [
+            "Astronauts on the International Space Station",
+            "The President of the United States",
+            "A military base housing nuclear weapons",
+            "A top-secret research facility"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which member of the team has a high tolerance for pain and a resistance to anesthesia?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Happy Quinn",
+            "Sylvester Dodd"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Serbian war criminal who becomes a recurring antagonist in Scorpion?",
+          "options": [
+            "Mark Collins",
+            "Dmitri Ravinoff",
+            "Nikolai Tarasov",
+            "Dragan Gavrilovic"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character on Scorpion has an eidetic memory?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who becomes the U.S. Secretary of Commerce and a recurring character in Scorpion?",
+          "options": [
+            "Megan O'Brien",
+            "Adriana Molina",
+            "Veronica Dineen",
+            "Sylvester Dodd"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the artificial intelligence developed by the team in Scorpion?",
+          "options": [
+            "Arachnid",
+            "Oracle",
+            "Wiz",
+            "Labyrinth"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character on Scorpion is a former child prodigy who graduated from Harvard at the age of 14?",
+          "options": [
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Happy Quinn"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret government project that Walter O'Brien was involved in before forming the team in Scorpion?",
+          "options": [
+            "Project Scorpion",
+            "Project Genius",
+            "Project Hive",
+            "Project Mindstorm"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who was responsible for the car accident that resulted in Megan O'Brien's condition in Scorpion?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Happy Quinn",
+            "Cabe Gallo"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the computer system that the team uses to communicate and analyze data in Scorpion?",
+          "options": [
+            "ScorpioNet",
+            "TechCom",
+            "GeniusGrid",
+            "BrainWave"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who becomes the head of Homeland Security and a recurring character in Scorpion?",
+          "options": [
+            "Cabe Gallo",
+            "Adriana Molina",
+            "Ray Spiewack",
+            "Toby Curtis"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which member of the team has a degree in mechanical engineering and is a skilled pilot?",
+          "options": [
+            "Happy Quinn",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the billionaire tech mogul who becomes a recurring character in Scorpion?",
+          "options": [
+            "Richard Elia",
+            "Tim Armstrong",
+            "Jerry Hartfield",
+            "Merrick Warner"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character on Scorpion has a talent for linguistics and can speak multiple languages?",
+          "options": [
+            "Walter O'Brien",
+            "Paige Dineen",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
     ]
 }

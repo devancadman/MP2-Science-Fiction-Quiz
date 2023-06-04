@@ -4124,5 +4124,515 @@
           "level": "hard",
           "correctIndex": 3
         }
+    ],
+
+    
+    "Stargate": [
+        {
+          "question": "What is the name of the main team in 'Stargate SG-1'?",
+          "options": [
+            "SG-1",
+            "SG-2",
+            "SG-3",
+            "SG-4"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Atlantis', the team discovers a city in another galaxy. What is the name of that city?",
+          "options": [
+            "Atlantis",
+            "Asgard",
+            "Abydos",
+            "Earth"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient alien race in 'Stargate SG-1'?",
+          "options": [
+            "Goa'uld",
+            "Wraith",
+            "Replicators",
+            "Ancients"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the primary mode of transportation between planets in the Stargate universe?",
+          "options": [
+            "Ships",
+            "Jumpers",
+            "Stargates",
+            "Transporters"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the leader of the Goa'uld in 'Stargate SG-1'?",
+          "options": [
+            "Apophis",
+            "Anubis",
+            "Ra",
+            "Ba'al"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the military base where the Stargate is located on Earth?",
+          "options": [
+            "Cheyenne Mountain",
+            "Area 51",
+            "NORAD",
+            "Wright-Patterson AFB"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrays Colonel Jack O'Neill in 'Stargate SG-1'?",
+          "options": [
+            "Richard Dean Anderson",
+            "Michael Shanks",
+            "Amanda Tapping",
+            "Christopher Judge"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the alien species who act as the main antagonists in 'Stargate Universe'?",
+          "options": [
+            "The Lucian Alliance",
+            "The Ori",
+            "The Asurans",
+            "The Destiny crew"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the team's spaceship in 'Stargate Atlantis'?",
+          "options": [
+            "Daedalus",
+            "Prometheus",
+            "Odyssey",
+            "Apollo"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "In the Stargate universe, what is the purpose of the Dial Home Device?",
+          "options": [
+            "To power the Stargate",
+            "To activate the Stargate",
+            "To control the Stargate's destination",
+            "To communicate with other worlds"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the main character in 'Stargate Universe'?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Camile Wray",
+            "Chloe Armstrong"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the energy weapon used by the Goa'uld?",
+          "options": [
+            "Zat'nik'tel",
+            "Staff weapon",
+            "TAC-2",
+            "Particle magnum"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alien race that helps the humans in 'Stargate SG-1'?",
+          "options": [
+            "Tok'ra",
+            "Furlings",
+            "Nox",
+            "Jaffa"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the scientist who helps decipher the Stargate in the original 'Stargate' film?",
+          "options": [
+            "Daniel Jackson",
+            "Samantha Carter",
+            "George Hammond",
+            "Teal'c"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which planet serves as the base of operations for the Atlantis team in 'Stargate Atlantis'?",
+          "options": [
+            "Lantea",
+            "Tollana",
+            "Heliopolis",
+            "P3X-888"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the villainous artificial intelligence in 'Stargate SG-1'?",
+          "options": [
+            "Replicators",
+            "Asurans",
+            "Wraith",
+            "Reese"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the villainous Goa'uld who takes on the persona of the Egyptian god Anubis?",
+          "options": [
+            "Ba'al",
+            "Apophis",
+            "Seth",
+            "Hathor"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is the leader of the Atlantis expedition in 'Stargate Atlantis'?",
+          "options": [
+            "John Sheppard",
+            "Elizabeth Weir",
+            "Rodney McKay",
+            "Teyla Emmagan"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the artificial intelligence created by Dr. Daniel Jackson in 'Stargate SG-1'?",
+          "options": [
+            "Asuran",
+            "Reese",
+            "Replicator",
+            "Wraith"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is known for saying 'Indeed' in 'Stargate SG-1'?",
+          "options": [
+            "Teal'c",
+            "Vala Mal Doran",
+            "Jonas Quinn",
+            "Cameron Mitchell"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the rogue Asgard scientist who becomes an ally of SG-1?",
+          "options": [
+            "Loki",
+            "Thor",
+            "Freyr",
+            "Heimdall"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Universe', what is the name of the ship that the crew finds themselves trapped on?",
+          "options": [
+            "Destiny",
+            "Odyssey",
+            "Prometheus",
+            "Daedalus"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character from 'Stargate SG-1' later becomes the leader of Stargate Command?",
+          "options": [
+            "Cameron Mitchell",
+            "George Hammond",
+            "Jack O'Neill",
+            "Hank Landry"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the enemy alien species in 'Stargate Universe' that feeds on human life force?",
+          "options": [
+            "The Ori",
+            "The Wraith",
+            "The Replicators",
+            "The Lucian Alliance"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character in 'Stargate Atlantis' has the ability to communicate telepathically with the Wraith?",
+          "options": [
+            "Todd",
+            "Michael",
+            "Kolya",
+            "Ford"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the advanced alien race that built the Stargates?",
+          "options": [
+            "Furlings",
+            "Asgard",
+            "Ancients",
+            "Nox"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character in 'Stargate Universe' is an expert in alien technology?",
+          "options": [
+            "Chloe Armstrong",
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Camile Wray"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the highly intelligent race that is the primary enemy in 'Stargate SG-1'?",
+          "options": [
+            "The Goa'uld",
+            "The Replicators",
+            "The Asurans",
+            "The Ori"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character from 'Stargate Atlantis' later appears as a regular character in 'Stargate Universe'?",
+          "options": [
+            "Ronon Dex",
+            "Rodney McKay",
+            "Teyla Emmagan",
+            "Jennifer Keller"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Stargate SG-1 team member who is a Jaffa?",
+          "options": [
+            "Teal'c",
+            "Daniel Jackson",
+            "Samantha Carter",
+            "Cameron Mitchell"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Universe', who is the only crew member who can operate the Ancient technology?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Camile Wray",
+            "Chloe Armstrong"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the advanced race of beings that pose as gods and rule over other planets in 'Stargate SG-1'?",
+          "options": [
+            "The Ancients",
+            "The Nox",
+            "The Asgard",
+            "The Goa'uld"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character sacrifices themselves by flying a nuclear bomb into a supergate in 'Stargate SG-1'?",
+          "options": [
+            "Samantha Carter",
+            "Jack O'Neill",
+            "Daniel Jackson",
+            "Teal'c"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "In 'Stargate Atlantis', what is the name of the ship that the Atlantis team uses to travel to other planets?",
+          "options": [
+            "Deadalus",
+            "Apollo",
+            "Prometheus",
+            "Odyssey"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character from 'Stargate Universe' is infected with a nanite virus that grants superhuman abilities?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Chloe Armstrong",
+            "Camile Wray"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the legendary treasure that the team searches for in 'Stargate SG-1'?",
+          "options": [
+            "The Eye of Ra",
+            "The Lost City",
+            "The Ark of Truth",
+            "The Holy Grail"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character in 'Stargate Atlantis' becomes a hybrid of human and Wraith DNA?",
+          "options": [
+            "Michael Kenmore",
+            "Todd",
+            "Teyla Emmagan",
+            "Jennifer Keller"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Universe', what is the name of the ancient alien ship that the Destiny crew is trying to repair?",
+          "options": [
+            "Asgard",
+            "Furling",
+            "Lantean",
+            "Seed ship"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character in 'Stargate SG-1' is possessed by the Goa'uld symbiote named Ba'al?",
+          "options": [
+            "Daniel Jackson",
+            "Samantha Carter",
+            "Jack O'Neill",
+            "Cameron Mitchell"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the underground resistance movement fighting against the Goa'uld in 'Stargate SG-1'?",
+          "options": [
+            "The Tok'ra",
+            "The Jaffa",
+            "The Asgard",
+            "The Tauri"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "In 'Stargate Atlantis', which character temporarily becomes a Wraith Queen?",
+          "options": [
+            "Elizabeth Weir",
+            "John Sheppard",
+            "Rodney McKay",
+            "Teyla Emmagan"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the energy source that powers the Stargates in the 'Stargate' franchise?",
+          "options": [
+            "Naquadah",
+            "Trinium",
+            "Neutronium",
+            "ZPM"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character from 'Stargate Universe' is revealed to be an ancient astronaut who built the Stargates?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Chloe Armstrong",
+            "Camile Wray"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alternate reality version of Samantha Carter in 'Stargate SG-1'?",
+          "options": [
+            "Sam Carter",
+            "Carter Samuels",
+            "Samantha Carter",
+            "Captain Carter"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "In 'Stargate Atlantis', which character gains the ability to control the Wraith by injecting himself with Wraith enzyme?",
+          "options": [
+            "Michael Kenmore",
+            "Todd",
+            "Ronon Dex",
+            "John Sheppard"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Goa'uld System Lord who has a long-standing rivalry with SG-1?",
+          "options": [
+            "Ba'al",
+            "Apophis",
+            "Seth",
+            "Anubis"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
     ]
 }

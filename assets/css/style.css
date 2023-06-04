@@ -665,3 +665,33 @@ background-color: #f5f5f5;
     font-weight: bold;
 }
 /***** END - Questions *****/
+
+/***** RESULTS *****/
+.quiz-page .container {
+    width:80%;
+    margin: 0 auto;
+}
+#result-container {
+    display: none;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem 0;
+    outline: 1px solid var(--light-blue);
+    outline-offset: -25px;
+    background-color: var(--border-blue);
+    z-index: 1;
+    position: relative;
+}
+#result-container h2, #result-container #result-text {color:#fff !important;}
+#result-container .answered-questions-list li {
+    margin-bottom: 2rem !important;
+    width: 80%;
+    margin: 0 auto;
+}
+p.correct-answer {
+    font-weight: bold;
+    color:#fff;
+}
+/***** END - Results *****/

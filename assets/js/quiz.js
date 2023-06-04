@@ -125,4 +125,12 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     }
+
+    // Disable all answer options
+    function disableOptions() {
+        const options = optionsContainer.children;
+        for (let i = 0; i < options.length; i++) {
+        options[i].disabled = true; // Disable all buttons
+        }
+    }
 });

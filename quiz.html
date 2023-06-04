@@ -49,6 +49,26 @@
         </nav>
     </header>
 
+    <main class="container">
+        <!-- Container for quiz questions -->
+        <div id="questionContainer">
+            <h2 id="category-heading"></h2> <!-- Heading to display the category of the current question -->
+    
+            <div id="counter-container">
+                <label id="question-label" for="file"><span id="counter-text"></span></label>
+                <progress id="progress-bar" value="0" max="100"></progress>
+                <span id="progress-text">0%</span>
+            </div>
+            <br>
+            <p id="question-text"></p> <!-- Paragraph to display the current question text -->
+            <div id="options-container"></div> <!-- Container for displaying the answer options -->
+    
+            <p id="error-message" class="error-message"></p> <!-- Element to display error messages, if any -->
+    
+            <button id="next-button" class="blue-btn">Next</button> <!-- Button to proceed to the next question -->
+        </div>
+    </main>
+    
     <footer>
         <div class="container">
             <!-- Copywrite -->

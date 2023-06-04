@@ -1524,5 +1524,514 @@
           "level": "hard",
           "correctIndex": 2
         }
-    ]
+    ],
+
+    "Supernatural": [
+        {
+          "question": "Who are the two main protagonists in Supernatural?",
+          "options": [
+            "Sam and Dean Winchester",
+            "Castiel and Crowley",
+            "Bobby Singer and Charlie Bradbury",
+            "Lucifer and Michael"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Chevrolet Impala that Sam and Dean drive?",
+          "options": [
+            "Baby",
+            "Ruby",
+            "Crowley",
+            "Meg"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which city is the main setting for Supernatural?",
+          "options": [
+            "Los Angeles",
+            "Chicago",
+            "New York",
+            "Lawrence, Kansas"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the angel who becomes a major character in later seasons?",
+          "options": [
+            "Michael",
+            "Lucifer",
+            "Gabriel",
+            "Castiel"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the profession of Sam and Dean's father, John Winchester?",
+          "options": [
+            "Hunter",
+            "Lawyer",
+            "Mechanic",
+            "Doctor"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the demon who becomes an ally to Sam and Dean?",
+          "options": [
+            "Azazel",
+            "Meg",
+            "Abaddon",
+            "Crowley"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Sam and Dean's hometown?",
+          "options": [
+            "Lawrence",
+            "Lebanon",
+            "Kansas City",
+            "Singer"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the demon-killing knife in Supernatural?",
+          "options": [
+            "Excalibur",
+            "Ruby's Knife",
+            "The First Blade",
+            "The Colt"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the King of Hell in Supernatural?",
+          "options": [
+            "Crowley",
+            "Lucifer",
+            "Azazel",
+            "Abaddon"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the monster-hunting device that can detect supernatural beings?",
+          "options": [
+            "The Colt",
+            "Angel Blade",
+            "EMF Meter",
+            "Salt Shotgun"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the demon who possesses Sam in the early seasons?",
+          "options": [
+            "Ruby",
+            "Meg",
+            "Lilith",
+            "Azazel"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Supernatural spin-off series that focuses on the monster-hunting family?",
+          "options": [
+            "Supernatural: Bloodlines",
+            "Supernatural: Legacy",
+            "Supernatural: Wayward Sisters",
+            "Supernatural: Origins"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the archangel who is Lucifer's brother?",
+          "options": [
+            "Michael",
+            "Raphael",
+            "Gabriel",
+            "Uriel"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the King of the Crossroads demons in Supernatural?",
+          "options": [
+            "Crowley",
+            "Lilith",
+            "Azazel",
+            "Meg"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Winchester brothers' mother?",
+          "options": [
+            "Mary",
+            "Jessica",
+            "Lisa",
+            "Ellen"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Supernatural book series within the show?",
+          "options": [
+            "The Demon Diaries",
+            "The Monster Manual",
+            "Supernatural Tales",
+            "The Winchester Chronicles"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the angel who becomes the vessel for Lucifer?",
+          "options": [
+            "Raphael",
+            "Michael",
+            "Gabriel",
+            "Sam"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the alternate universe where angels and demons are at war?",
+          "options": [
+            "Purgatory",
+            "Heaven",
+            "Hell",
+            "The Apocalypse World"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which demon possesses the body of Meg Masters?",
+          "options": [
+            "Abaddon",
+            "Azazel",
+            "Ruby",
+            "Crowley"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the British organization of hunters in Supernatural?",
+          "options": [
+            "Men of Letters",
+            "Hunters United",
+            "The British MoL",
+            "The British Men of Letters"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the witch who becomes an ally to Sam and Dean?",
+          "options": [
+            "Rowena",
+            "Charlie",
+            "Donna",
+            "Amara"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which archangel takes over control of Heaven in the later seasons?",
+          "options": [
+            "Michael",
+            "Raphael",
+            "Gabriel",
+            "Metatron"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Supernatural book series that chronicles the lives of Sam and Dean?",
+          "options": [
+            "The Supernatural Files",
+            "The Winchester Journals",
+            "The Hunting Diaries",
+            "The Winchester Gospels"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the vampire who becomes a recurring character in Supernatural?",
+          "options": [
+            "Benny",
+            "Lenore",
+            "Gordon",
+            "Meg"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the creature that Sam and Dean initially believe is their mother?",
+          "options": [
+            "The Leviathans",
+            "The Alpha Vampire",
+            "The Khan Worm",
+            "The Shapeshifter"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the demon who is Crowley's mother?",
+          "options": [
+            "Lilith",
+            "Abaddon",
+            "Rowena",
+            "Ruby"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which archangel is responsible for starting the Apocalypse in Supernatural?",
+          "options": [
+            "Michael",
+            "Lucifer",
+            "Raphael",
+            "Gabriel"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the pagan god who is the god of mischief and chaos?",
+          "options": [
+            "Loki",
+            "Odin",
+            "Baldur",
+            "Fenrir"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Queen of Hell in Supernatural?",
+          "options": [
+            "Ruby",
+            "Lilith",
+            "Abaddon",
+            "Rowena"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the powerful artifact that can open a door to any location?",
+          "options": [
+            "The First Blade",
+            "The Colt",
+            "The Mark of Cain",
+            "The Key of Solomon"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the prophet who can see the future in Supernatural?",
+          "options": [
+            "Kevin Tran",
+            "Chuck Shurley",
+            "Eileen Leahy",
+            "Amara"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alternate reality where Sam and Dean are actors in a TV show called Supernatural?",
+          "options": [
+            "The Bizarro World",
+            "The Trickster's Playground",
+            "The Fairy Tale Realm",
+            "The French Mistake"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the entity that represents the darkness in Supernatural?",
+          "options": [
+            "Amara",
+            "Rowena",
+            "Tiamat",
+            "Lilith"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the powerful witch who is a member of the Grand Coven?",
+          "options": [
+            "Rowena",
+            "Charlie",
+            "Donna",
+            "Jody"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which archangel takes over control of Hell in the later seasons?",
+          "options": [
+            "Michael",
+            "Lucifer",
+            "Raphael",
+            "Metatron"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the deity that the Winchester brothers encounter in the episode 'Hammer of the Gods'?",
+          "options": [
+            "Zeus",
+            "Odin",
+            "Hades",
+            "Thor"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the King of the Crossroads demons in Supernatural?",
+          "options": [
+            "Azazel",
+            "Lilith",
+            "Crowley",
+            "Meg"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the demon who manipulates Sam into drinking demon blood?",
+          "options": [
+            "Azazel",
+            "Alastair",
+            "Meg",
+            "Crowley"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the creature that takes the form of people's worst fears in Supernatural?",
+          "options": [
+            "The Wendigo",
+            "The Leviathans",
+            "The Khan Worm",
+            "The Shapeshifter"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which angel kills the demon Lilith in order to break the 66 Seals?",
+          "options": [
+            "Gabriel",
+            "Raphael",
+            "Metatron",
+            "Castiel"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the secret society of hunters that Sam and Dean encounter in the episode 'Hunting Party'?",
+          "options": [
+            "The Thule Society",
+            "The Men of Letters",
+            "The British MoL",
+            "The Order of the Cross"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the witch who casts the spell to remove the Mark of Cain from Dean's arm?",
+          "options": [
+            "Rowena",
+            "Charlie",
+            "Donna",
+            "Jody"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the creature that feeds on human hearts and has a connection to Sam and Dean?",
+          "options": [
+            "The Wendigo",
+            "The Alpha Vampire",
+            "The Rugaru",
+            "The Djinn"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which angel becomes the vessel for the archangel Michael in the later seasons?",
+          "options": [
+            "Sam",
+            "Dean",
+            "Castiel",
+            "Adam"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the weapon that can kill anything in existence?",
+          "options": [
+            "The Colt",
+            "The First Blade",
+            "The Lance of Michael",
+            "The Spear of Destiny"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the ritual that can bind Death and control him?",
+          "options": [
+            "The Demon's Bargain",
+            "The Book of the Damned",
+            "The Mark of Cain",
+            "The Sacrifice of Souls"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        }
+    ]  
 }

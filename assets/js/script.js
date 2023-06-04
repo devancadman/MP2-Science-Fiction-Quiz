@@ -140,24 +140,55 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /// Play/Pause functionality for home audio
     if (document.body.id === "home-page") {
-    var homeAudio = document.getElementById("home-audio");
-    var playPauseBtn = document.getElementById("play-pause");
-    var muteIcon = document.getElementById("muteIcon");
+        var homeAudio = document.getElementById("home-audio");
+        var playPauseBtn = document.getElementById("play-pause");
+        var muteIcon = document.getElementById("muteIcon");
 
-    playPauseBtn.addEventListener("click", function() {
-        if (homeAudio.paused) {
-        homeAudio.play();
-        playPauseBtn.classList.remove("play");
-        playPauseBtn.classList.add("pause");
-        muteIcon.src = "./assets/images/pause.png";
-        muteIcon.alt = "unmuted";
-        } else {
-        homeAudio.pause();
-        playPauseBtn.classList.remove("pause");
-        playPauseBtn.classList.add("play");
-        muteIcon.src = "./assets/images/play.png";
-        muteIcon.alt = "muted";
-        }
-    });
+        playPauseBtn.addEventListener("click", function() {
+            if (homeAudio.paused) {
+            homeAudio.play();
+            playPauseBtn.classList.remove("play");
+            playPauseBtn.classList.add("pause");
+            muteIcon.src = "./assets/images/pause.png";
+            muteIcon.alt = "unmuted";
+            } else {
+            homeAudio.pause();
+            playPauseBtn.classList.remove("pause");
+            playPauseBtn.classList.add("play");
+            muteIcon.src = "./assets/images/play.png";
+            muteIcon.alt = "muted";
+            }
+        });
     }
+
+    /* Dialog Popup */
+    const openButtons = document.querySelectorAll("[data-open-modal]")
+    const modals = document.querySelectorAll("[data-modal]")
+    const closeButtons = document.querySelectorAll("[data-close-modal]")
+
+    openButtons.forEach((openButton, index) => {
+    const modal = modals[index]
+    const closeButton = closeButtons[index]
+    
+    openButton.addEventListener("click", () => {
+        modal.showModal()
+    })
+
+    modal.addEventListener("click", e => {
+        const modalDimensions = modal.getBoundingClientRect()
+        if (
+            e.clientX < modalDimensions.left ||
+            e.clientX > modalDimensions.right ||
+            e.clientY < modalDimensions.top ||
+            e.clientY > modalDimensions.bottom
+        ) {
+            modal.close()
+        }
+    })
+
+    closeButton.addEventListener("click", () => {
+        modal.close()
+    })
+    })
+
 });

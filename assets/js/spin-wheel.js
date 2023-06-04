@@ -120,3 +120,24 @@ const spinertia = (min, max) => {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
+
+// Run the ticker animation while the wheel is spinning
+const runTickerAnimation = () => {
+    const values = spinnerStyles.transform.split("(")[1].split(")")[0].split(",");
+    const a = values[0];
+    const b = values[1];  
+    let rad = Math.atan2(b, a);
+
+    if (rad < 0) rad += (2 * Math.PI);
+
+    const angle = Math.round(rad * (180 / Math.PI));
+    const slice = Math.floor(angle / categoriesSlice);
+
+    if (currentSlice !== slice) {
+        ticker.style.animation = "none";
+        setTimeout(() => ticker.style.animation = null, 10);
+        currentSlice = slice;
+    }
+
+    tickerAnim = requestAnimationFrame(runTickerAnimation);
+};

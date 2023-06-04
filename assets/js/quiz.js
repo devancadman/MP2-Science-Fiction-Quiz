@@ -138,4 +138,24 @@ document.addEventListener("DOMContentLoaded", function () {
     function showNextButton() {
         nextButton.style.display = "block";
     }
+
+    // Proceed to the next question
+    function nextQuestion() {
+        if (!isAnswered()) {
+            errorMessage.textContent = "Please provide an answer before continuing.";
+            return;
+        }
+
+        currentQuestionIndex++;
+        resultText.textContent = "";
+        errorMessage.textContent = "";
+
+        if (currentQuestionIndex < Math.min(maxQuestions, questionIndices.length)) {
+        showQuestion();
+        } else {
+        showResult();
+        }
+
+        updateProgressText();
+    }
 });

@@ -3084,5 +3084,514 @@
           "level": "hard",
           "correctIndex": 0
         }
+    ],
+
+    "Stranger Things": [
+        {
+          "question": "In which decade is the TV series 'Stranger Things' set?",
+          "options": [
+            "1970s",
+            "1980s",
+            "1990s",
+            "2000s"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the fictional town where 'Stranger Things' is set?",
+          "options": [
+            "Hawkins",
+            "Hawkeye",
+            "Harper",
+            "Harrington"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the telekinetic girl with special abilities in the series?",
+          "options": [
+            "Max",
+            "Nancy",
+            "Eleven",
+            "Joyce"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the group of friends in 'Stranger Things'?",
+          "options": [
+            "The A-Team",
+            "The Power Rangers",
+            "The Losers' Club",
+            "The Party"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is the police chief of Hawkins?",
+          "options": [
+            "Billy",
+            "Jonathan",
+            "Hopper",
+            "Mike"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Will Byers' mother?",
+          "options": [
+            "Karen",
+            "Sarah",
+            "Joyce",
+            "Robin"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is known for their love of Eggo waffles?",
+          "options": [
+            "Steve",
+            "Dustin",
+            "Lucas",
+            "Eleven"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Upside Down's monstrous creature in the first season?",
+          "options": [
+            "The Demogorgon",
+            "The Mind Flayer",
+            "The Shadow Monster",
+            "The Demodogs"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What game do the boys play in their basement in the first season?",
+          "options": [
+            "Dungeons & Dragons",
+            "Monopoly",
+            "Risk",
+            "Chess"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Mike Wheeler's older sister?",
+          "options": [
+            "Nancy",
+            "Max",
+            "Robin",
+            "Erica"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the arcade in Hawkins where the characters often hang out?",
+          "options": [
+            "Starcade",
+            "Funland",
+            "The Palace",
+            "Hawkins Arcade"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a special connection with the Upside Down?",
+          "options": [
+            "Dustin",
+            "Jonathan",
+            "Joyce",
+            "Will"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the telekinetic girl's adoptive father?",
+          "options": [
+            "Dr. Owens",
+            "Dr. Brenner",
+            "Dr. Wheeler",
+            "Dr. Cooper"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the creature that replaces people in the second season?",
+          "options": [
+            "The Mind Flayer",
+            "The Demogorgon",
+            "The Demodogs",
+            "The Shadow Monster"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the group of government agents in 'Stranger Things'?",
+          "options": [
+            "The Men in Black",
+            "The Shadowhunters",
+            "The Upside Downers",
+            "The Hawkins Lab"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the arcade game that Dustin befriends in the second season?",
+          "options": [
+            "Pac-Man",
+            "Centipede",
+            "Dig Dug",
+            "Galaga"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a secret crush on Mike in the first season?",
+          "options": [
+            "Max",
+            "Nancy",
+            "Joyce",
+            "Eleven"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the mysterious organization conducting experiments in Hawkins?",
+          "options": [
+            "Hawkins Lab",
+            "Hawkins Power & Light",
+            "Hawkins Industries",
+            "Hawkins Research Facility"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the monster that possesses Will in the second season?",
+          "options": [
+            "The Demogorgon",
+            "The Mind Flayer",
+            "The Shadow Monster",
+            "The Demodogs"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a special bond with Dart, the creature from the Upside Down?",
+          "options": [
+            "Lucas",
+            "Dustin",
+            "Mike",
+            "Will"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the journalist who investigates the events in Hawkins?",
+          "options": [
+            "Murray",
+            "Bob",
+            "Billy",
+            "Ted"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is revealed to have psychic abilities in the second season?",
+          "options": [
+            "Lucas",
+            "Max",
+            "Mike",
+            "Will"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret government project responsible for the creation of Eleven?",
+          "options": [
+            "Project Blue Book",
+            "Project MKUltra",
+            "Project Phoenix",
+            "Project Stargate"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is known for his iconic catchphrase 'Friends don't lie'?",
+          "options": [
+            "Lucas",
+            "Dustin",
+            "Mike",
+            "Will"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Eleven's adoptive sister with special abilities?",
+          "options": [
+            "Kali",
+            "Robin",
+            "Erica",
+            "Max"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the department store in Hawkins where several key scenes take place?",
+          "options": [
+            "Starcourt Mall",
+            "Hawkins Mall",
+            "Hawkins Department Store",
+            "Hawkins Shopping Center"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is Will's older brother?",
+          "options": [
+            "Jonathan",
+            "Mike",
+            "Dustin",
+            "Lucas"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the secret Russian base beneath Starcourt Mall in the third season?",
+          "options": [
+            "Operation Upside Down",
+            "Project Blue Book",
+            "Hawkins Lab",
+            "Starcourt Bunker"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character develops a close friendship with Steve Harrington in the second season?",
+          "options": [
+            "Billy",
+            "Max",
+            "Jonathan",
+            "Nancy"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret government agency tasked with tracking supernatural events?",
+          "options": [
+            "The Department of Paranormal Affairs",
+            "The Hawkins Lab",
+            "The Stranger Things Task Force",
+            "The Hawkins National Laboratory"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the alternate dimension parallel to the real world in 'Stranger Things'?",
+          "options": [
+            "The Upside Down",
+            "The Dark World",
+            "The Other Side",
+            "The Shadow Realm"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character sacrifices himself to save the others in the final season?",
+          "options": [
+            "Hopper",
+            "Mike",
+            "Will",
+            "Dustin"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the monster that appears in the third season, controlled by the Mind Flayer?",
+          "options": [
+            "The Demogorgon",
+            "The Shadow Monster",
+            "The Mind Flayer",
+            "The Demodogs"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the high school attended by the main characters in 'Stranger Things'?",
+          "options": [
+            "Hawkins High School",
+            "Hawkins Central High",
+            "Hawkins West High",
+            "Hawkins Prep Academy"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is revealed to be gay in the third season?",
+          "options": [
+            "Steve",
+            "Billy",
+            "Jonathan",
+            "Will"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Russian scientist who helps the characters in the third season?",
+          "options": [
+            "Dr. Owens",
+            "Dr. Brenner",
+            "Dr. Zharkov",
+            "Dr. Alexei"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has the ability to see into the future?",
+          "options": [
+            "Billy",
+            "Eleven",
+            "Max",
+            "Robin"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret code used by the characters to communicate in the second season?",
+          "options": [
+            "Alpha-Bravo",
+            "Operation Scoop Troop",
+            "Code Red",
+            "Radio Silence"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the conspiracy theorist who becomes involved in uncovering the truth about Hawkins?",
+          "options": [
+            "Murray",
+            "Bob",
+            "Ted",
+            "Billy"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the song performed by Dustin and Suzie in the third season?",
+          "options": [
+            "Never Ending Story",
+            "Total Eclipse of the Heart",
+            "Don't Stop Believin'",
+            "Every Breath You Take"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is possessed by the Mind Flayer in the second season?",
+          "options": [
+            "Billy",
+            "Will",
+            "Mike",
+            "Lucas"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the carnival ride that Eleven and Max visit in the third season?",
+          "options": [
+            "Hawkins Funland",
+            "Carnival of Curiosities",
+            "Starcourt Amusement Park",
+            "The Palace of Illusions"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is revealed to have an older sister in the third season?",
+          "options": [
+            "Dustin",
+            "Lucas",
+            "Mike",
+            "Will"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the drug administered to Eleven in the laboratory to enhance her powers?",
+          "options": [
+            "Supra",
+            "Elevate",
+            "Enhance",
+            "Maximizer"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character discovers that he has a terminal illness in the third season?",
+          "options": [
+            "Steve",
+            "Billy",
+            "Jonathan",
+            "Hopper"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the town mayor in 'Stranger Things'?",
+          "options": [
+            "Larry Kline",
+            "Tom Hanks",
+            "Jim Hopper",
+            "Bruce Lowe"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
     ]
 }

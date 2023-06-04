@@ -2564,5 +2564,525 @@
           "level": "hard",
           "correctIndex": 3
         }
+    ],
+
+    "The Big Bang Theory": [
+        {
+          "question": "Who is Leonard's roommate and best friend?",
+          "options": [
+            "Sheldon",
+            "Raj",
+            "Howard",
+            "Penny"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character has a phobia of germs and physical contact?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Howard",
+            "Raj"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the building where the main characters live?",
+          "options": [
+            "Pasadena Tower",
+            "Caltech Residence",
+            "Sheldon's Apartment",
+            "The Cheesecake Factory"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who lives across the hall from Leonard and Sheldon?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is an aerospace engineer?",
+          "options": [
+            "Howard",
+            "Raj",
+            "Sheldon",
+            "Leonard"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is Sheldon's catchphrase?",
+          "options": [
+            "Bazinga!",
+            "Wubba Lubba Dub Dub!",
+            "You're in my spot!",
+            "Penny, Penny, Penny"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is Sheldon's girlfriend/wife in the later seasons of the series?",
+          "options": [
+            "Amy",
+            "Bernadette",
+            "Penny",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the comic book store frequently visited by the characters?",
+          "options": [
+            "Comic Central",
+            "Superhero Haven",
+            "The Nerdery",
+            "Stuart's Comic Book Store"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is an astrophysicist?",
+          "options": [
+            "Leonard",
+            "Raj",
+            "Howard",
+            "Sheldon"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the university where the main characters work?",
+          "options": [
+            "Stanford University",
+            "Harvard University",
+            "California Institute of Technology (Caltech)",
+            "Massachusetts Institute of Technology (MIT)"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the only one of the main characters without a Ph.D.?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What instrument does Howard play?",
+          "options": [
+            "Guitar",
+            "Drums",
+            "Violin",
+            "Keytar"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a dog named Cinnamon?",
+          "options": [
+            "Raj",
+            "Leonard",
+            "Howard",
+            "Penny"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the cafeteria where the characters often have lunch?",
+          "options": [
+            "The Cheesecake Factory",
+            "The Big Bang Burger Bar",
+            "The Comic Book Café",
+            "The Caltech Canteen"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is Leonard's on-and-off girlfriend throughout the series?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character has a collection of action figures and comic books?",
+          "options": [
+            "Sheldon",
+            "Raj",
+            "Howard",
+            "Leonard"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a twin sister named Missy?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Raj",
+            "Howard"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Sheldon's favorite comic book superhero?",
+          "options": [
+            "Superman",
+            "Batman",
+            "Spider-Man",
+            "The Flash"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is Penny's ex-boyfriend and the leader of the Koothrappali gang?",
+          "options": [
+            "Zack",
+            "Stuart",
+            "Barry",
+            "Kurt"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a microbiologist?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Howard's mother, who is often heard but never seen?",
+          "options": [
+            "Debbie",
+            "Susan",
+            "Esther",
+            "Mrs. Wolowitz"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a brother named George?",
+          "options": [
+            "Leonard",
+            "Sheldon",
+            "Raj",
+            "Howard"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character works as a waitress at The Cheesecake Factory?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is Raj's girlfriend in the later seasons of the series?",
+          "options": [
+            "Amy",
+            "Bernadette",
+            "Penny",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Sheldon's online username?",
+          "options": [
+            "DrSheldonCooper",
+            "TheoreticalGenius",
+            "Sheldor",
+            "SheldonTheGreat"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a girlfriend named Emily?",
+          "options": [
+            "Raj",
+            "Leonard",
+            "Howard",
+            "Sheldon"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the university where the main characters work and study?",
+          "options": [
+            "Stanford University",
+            "Harvard University",
+            "California Institute of Technology (Caltech)",
+            "Massachusetts Institute of Technology (MIT)"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a master's degree in engineering?",
+          "options": [
+            "Raj",
+            "Howard",
+            "Leonard",
+            "Sheldon"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the game that Sheldon, Leonard, Howard, and Raj often play?",
+          "options": [
+            "Dungeons & Dragons",
+            "Mystic Warlords of Ka'a",
+            "Rock-Paper-Scissors-Lizard-Spock",
+            "Magic: The Gathering"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is a neurobiologist?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who did Leonard have a short-lived marriage with?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Priya"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is known for his distinctive fashion style and hairstyle?",
+          "options": [
+            "Sheldon",
+            "Howard",
+            "Raj",
+            "Leonard"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Sheldon's favorite spot on the couch?",
+          "options": [
+            "The Sheldon Zone",
+            "The Cooper Corner",
+            "The Cushion Cosmos",
+            "The Sweet Spot"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is lactose intolerant?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Raj",
+            "Howard"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the video game that Penny gets addicted to?",
+          "options": [
+            "World of Warcraft",
+            "Halo",
+            "Call of Duty",
+            "Age of Conan"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who won the Nobel Prize in Physics in the final season of the series?",
+          "options": [
+            "Sheldon and Amy",
+            "Leonard and Penny",
+            "Howard and Bernadette",
+            "Raj and Emily"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character has a fear of birds?",
+          "options": [
+            "Sheldon",
+            "Raj",
+            "Howard",
+            "Leonard"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the comic book store owner?",
+          "options": [
+            "Zack",
+            "Stuart",
+            "Barry",
+            "Kurt"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is an accomplished violinist?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Howard",
+            "Raj"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Howard's father?",
+          "options": [
+            "Mike",
+            "Sam",
+            "Gene",
+            "Richard"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character appeared in every episode of the series?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Penny",
+            "Howard"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Raj's dog?",
+          "options": [
+            "Cinnamon",
+            "Bailey",
+            "Snowball",
+            "Rufus"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Sheldon's meemaw?",
+          "options": [
+            "Eleanor",
+            "Connie",
+            "Mabel",
+            "June"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a PhD in astrophysics?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Howard",
+            "Raj"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character had a relationship with Stuart, the comic book store owner?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character has a brother named Randall?",
+          "options": [
+            "Leonard",
+            "Sheldon",
+            "Raj",
+            "Howard"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Penny's hometown?",
+          "options": [
+            "Omaha",
+            "Lincoln",
+            "Des Moines",
+            "Sacramento"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
     ]
 }

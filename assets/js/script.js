@@ -86,6 +86,22 @@ document.addEventListener("DOMContentLoaded", function () {
         updateAudioSource(category);
     }
 
+    /* Add Sound on Button Hover
+    Also Add a Play / Mute Button for sound */
+    var buttons = document.querySelectorAll(".outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .sound-btn, .mute-button, close-btn");
+    var hoverSound = new Audio('./assets/audio/button-hover-future.wav');
+
+    var isSoundMuted = false;
+
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('mouseenter', function() {
+        if (!isSoundMuted) {
+            hoverSound.volume = 0.1; // Adjust the volume level (0.0 to 1.0)
+            hoverSound.play();
+        }
+        });
+    }
+  
     // Mute Button add/remove class muted
     document.getElementById("mute-button").addEventListener("click", function() {
         if (isSoundMuted) {
@@ -190,5 +206,4 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.close()
     })
     })
-
 });

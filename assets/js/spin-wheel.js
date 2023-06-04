@@ -74,3 +74,17 @@ let tickerAnim;
 let rotation = 0;
 let currentSlice = 0;
 let categoryNodes;
+
+// Create the category nodes on the wheel
+const createCategoryNodes = () => {
+    categories.forEach(({ text, color, url }, i) => {
+      const rotation = ((categoriesSlice * i) * -1) - categoryOffset;
+  
+      spinner.insertAdjacentHTML(
+        "beforeend",
+        `<li class="category" style="--rotate: ${rotation}deg;" data-url="${url}">
+          <span class="text">${text}</span>
+        </li>`
+      );
+    });
+  };

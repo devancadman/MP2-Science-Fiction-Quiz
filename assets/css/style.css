@@ -96,3 +96,31 @@ main {
     background-color: var(--light-blue);
 }
 /***** END - Basic Styling *****/
+
+/***** CATEGORY LIST *****/
+#category-list  {
+    width:80%;
+    margin: auto;
+    text-align:center;
+    background-color: var(--dark-blue);
+    z-index: 1;
+    filter: drop-shadow(-1px 3px 8px rgba(74, 192, 219, 0.5));
+    padding-bottom: 1.5rem;
+  }
+  #category-list li {
+    text-align: center;
+    font-family: "Breamcatcher", monospace;
+    display: block;
+    width: 75%;
+    margin: 1rem auto;
+  }
+  #category-list li a {
+    padding: 8px;
+    display: block;
+    font-size: 18px;
+    background: rgba(5,28,37,0.5);
+  }
+  #category-list li a:hover {
+    background-color: var(--dark-blue);
+  }
+  /***** END - Category list *****/

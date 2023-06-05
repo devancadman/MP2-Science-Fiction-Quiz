@@ -928,7 +928,9 @@ p.correct-answer {
 }
 #overlay-content p {
     font-size: 18px;
-    cursor: pointer;
+}
+#overlay-content .wrong {
+    cursor:none !important;
 }
 /***** END - Overlay *****/
 
@@ -972,11 +974,7 @@ p.correct-answer {
 /***** MEDIA QUERIES *****/
 @media (max-width:1024px) {
     body {
-        padding: 5%;
-        margin-top: 3rem;
-        outline: 2px solid var(--border-blue);
-        outline-offset: -0.5rem;
-        display: block;
+        outline-offset: -1rem;
     }
     header {
         grid-template-columns: 1fr;
@@ -1004,6 +1002,12 @@ p.correct-answer {
 }
 
 @media (max-width:768px){
+    body {
+        padding: 5%;
+        margin-top: 3rem;
+        outline-offset: -0.5rem;
+        display: block;
+    }
     a.logo {
         width: 70%;
         margin: 0 auto;

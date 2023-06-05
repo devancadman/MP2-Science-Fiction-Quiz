@@ -58,6 +58,21 @@
             <h2>Choose your Level:</h2>
             <!-- HTML structure for level menu page -->
             <div id="level-menu"></div>
+
+            <select onchange="window.location.href=this.value">
+                <option value="">Change Category?</option>
+                <option value="level.html?category=Game%20of%20Thrones">Game of Thrones</option>
+                <option value="level.html?category=Scorpion">Scorpion</option>
+                <option value="level.html?category=Star%20Trek">Star Trek</option>
+                <option value="level.html?category=Supernatural">Supernatural</option>
+                <option value="level.html?category=Doctor%20Who">Doctor Who</option>
+                <option value="level.html?category=The%20Big%20Bang%20Theory">The Big Bang Theory</option>
+                <option value="level.html?category=Stranger%20Things">Stranger Things</option>
+                <option value="level.html?category=Star%20Wars">Star Wars</option>
+                <option value="level.html?category=Stargate">Stargate</option>
+                <option value="level.html?category=Harry%20Potter">Harry Potter</option>
+            </select>
+
         </main>
 
         <footer>
@@ -69,7 +84,7 @@
             </div>
         </footer>
     </div>
-    
+
     <!-- JavaScript files -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/levels.js"></script>

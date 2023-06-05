@@ -769,7 +769,7 @@ p.correct-answer {
 /***** Blink - Old Tv style Fuzzy Screen *****/
 .blink {
     display: block;
-    height: 100vh;
+    height: 120%;
     width: 100%;
     pointer-events: none;
     position: absolute;

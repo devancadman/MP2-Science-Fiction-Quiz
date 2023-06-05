@@ -165,7 +165,7 @@ a.logo:before {
 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
     gap:1rem;
@@ -985,7 +985,10 @@ p.correct-answer {
         grid-gap: 0rem;
         width: 100%;
     }
-    nav {gap: 5px;}
+    nav {
+        justify-content: space-between;
+        gap: 5px;
+    }
     .grid {
         grid-template-columns: 1fr;
         grid-gap: 2rem;

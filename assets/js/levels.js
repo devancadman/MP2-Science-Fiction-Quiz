@@ -30,3 +30,11 @@ levels.forEach(function(level) {
   // Append a text node (space) after the level link for spacing
   levelMenu.appendChild(document.createTextNode(" "));
 });
+
+window.addEventListener("beforeunload", function() {
+  var audioElement = document.getElementById("track"); // Replace "track" with the ID of your audio element
+
+  // Store the current time of the audio in the localStorage
+  localStorage.setItem("audioTime", audioElement.currentTime);
+  localStorage.setItem("audioCategory", category);
+});

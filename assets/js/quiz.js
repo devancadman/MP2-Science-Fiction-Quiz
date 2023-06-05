@@ -29,8 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(function (data) {
             console.log(data); // Add this line to log the fetched data
             questions = data[category];
+            // Add Category name above the question
             categoryHeading.textContent = `Category - ${category}`;
+            // Add Category name to the Page Title
             document.title = `Science Fiction Quiz - ${category}`;
+            // Add Category name to the Page Header
             document.getElementById("page-heading").innerHTML = `<a class="logo" href="./index.html" aria-label="logo home page link">Science Fiction Quiz:<br>${category}</a></a>`;
             generateQuestionIndices();
             showQuestion();

@@ -1,14 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@font-face {
-    font-family: "Breamcatcher";
-    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/Breamcatcher-Regular.woff2")
-        format("woff2"),
-        url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/Breamcatcher-Regular.woff")
-        format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.cdnfonts.com/css/breamcatcher');
 
 /* Basic Styling */
 :root {

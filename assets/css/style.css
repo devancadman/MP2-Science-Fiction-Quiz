@@ -1049,5 +1049,12 @@ p.correct-answer {
     #result-container .answered-questions-list li .wrong {
         padding: 5px 10px;
     }
+    .error404 .typing-error {
+        margin: 0;
+    }
+    .error404 .error-message {
+        padding: 0;
+        width: 100%;
+    }
 }
 /***** END - Media Queries *****/

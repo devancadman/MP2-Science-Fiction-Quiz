@@ -2,6 +2,10 @@
 var params = new URLSearchParams(window.location.search);
 var category = params.get("category");
 
+// Add Category name to the page title and Page Header
+document.title = `Science Fiction Quiz - ${category}`;
+document.getElementById("page-heading").innerHTML = `<a class="logo" href="./index.html" aria-label="logo home page link">Science Fiction Quiz:<br>${category}</a></a>`;
+
 // Generate the level menu based on the available levels for the selected category
 var levelMenu = document.getElementById("level-menu");
 var levels = ["easy", "medium", "hard"]; // Array containing different levels (you can modify this based on your available levels)

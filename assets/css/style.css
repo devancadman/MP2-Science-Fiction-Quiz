@@ -100,7 +100,7 @@ main {
 /***** END - Basic Styling *****/
 
 /***** BOX BORDER *****/
-.boder-box {
+.border-box {
     outline: 2px solid var(--light-blue);
     width: 100%;
 }

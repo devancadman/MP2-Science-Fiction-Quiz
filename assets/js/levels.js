@@ -32,9 +32,10 @@ levels.forEach(function(level) {
 });
 
 window.addEventListener("beforeunload", function() {
-  var audioElement = document.getElementById("track"); // Replace "track" with the ID of your audio element
+  const audioElement = getAudioElementByCategory(category);
 
-  // Store the current time of the audio in the localStorage
-  localStorage.setItem("audioTime", audioElement.currentTime);
-  localStorage.setItem("audioCategory", category);
+  if (audioElement) {
+    // Store the current time of the audio in the localStorage
+    localStorage.setItem("musicTime", audioElement.currentTime);
+  }
 });

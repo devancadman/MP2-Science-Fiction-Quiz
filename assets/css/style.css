@@ -369,24 +369,24 @@ footer a {
 }
 /***** END - Footer *****/
 
-  /***** BUTTONS *****/
-.outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .mute-button {
+/***** BUTTONS *****/
+.outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .mute-button, .lightblue-btn {
     cursor: url("../images/arrow.png") 0 0, pointer;
-  }
-  .sound-button {
+}
+.sound-button {
     width:56.7px;
-  }
-  .mute-button {
+}
+.mute-button {
     background: url("../images/audio-on.png") center center/40px no-repeat var(--border-blue);
     height: 50px;
     width: 56.7px;
     border: none;
     z-index: 5;
-  }
-  .mute-button.muted {
+}
+.mute-button.muted {
     background: url("../images/audio-off.png") center center/40px no-repeat var(--border-blue);
-  }
-  .outline-btn {
+}
+.outline-btn {
     display: inline-flex;
     align-items: center;
     padding: 8.5px;
@@ -397,13 +397,12 @@ footer a {
     font-size: 20px;
     font-family: "Orbitron", monospace;
     z-index: 5;
-  }
-  .outline-btn:hover, .mute-button:hover {
+}
+.outline-btn:hover, .mute-button:hover {
     outline: 1px solid var(--light-blue);
     outline-offset: -4px;
-  }
-  
-  button.option {
+}
+button.option {
     padding: 12px 20px;
     position: relative;
     margin: auto;
@@ -412,18 +411,16 @@ footer a {
     text-align: center;
     min-width: 45%;
     transition: all 0.3s;
-  }
-  
+}
   #next-button {
     padding: 12px 20px;
     margin:0 auto;
     background: rgba(5,28,37,0.5);
-  }
-  #next-button:hover {
+}
+#next-button:hover {
     background-color: var(--dark-blue);
-  }
-  
-  .wrong {
+}
+.wrong {
     position: relative;
     margin: auto;
     font-family: "Breamcatcher";
@@ -436,8 +433,8 @@ footer a {
     padding: 20px;
     pointer-events: all;
     color:var(--red);
-  }
-  .wrong:before, .wrong:after {
+}
+.wrong:before, .wrong:after {
     z-index: -1;
     content: " ";
     display: block;
@@ -446,19 +443,19 @@ footer a {
     height: 8px;
     position: absolute;
     transition: all 0.3s;
-  }
-  .wrong:before {
+}
+.wrong:before {
     top:0;
     left: 4px;
     transform: translateY(-48%) skewX(45deg) rotate(-4deg);
-  }
-  .wrong:after {
+}
+.wrong:after {
     transform: translateY(48%) skewX(45deg) rotate(-4deg);
     right:4px;
     bottom: 0;
-  }
+}
   
-  .correct {
+.correct {
     position:relative;
     font-family: "Breamcatcher";
     font-size: 22px;
@@ -471,8 +468,8 @@ footer a {
     padding: 20px;
     pointer-events: all;
     color:var(--green);
-  }
-  .correct:before, .correct:after {
+}
+.correct:before, .correct:after {
     z-index: -1;
     content: " ";
     display: block;
@@ -481,20 +478,18 @@ footer a {
     height: 8px;
     position: absolute;
     transition: all 0.3s;
-    }
-  
-  .correct:before {
+}
+.correct:before {
     top:0;
     left: 4px;
     transform: translateY(-48%) skewX(45deg) rotate(-4deg);
-  }
-  .correct:after {
+}
+.correct:after {
     transform: translateY(48%) skewX(45deg) rotate(-4deg);
     right:4px;
     bottom: 0;
-  }
-  
-  .blue-btn {
+}
+.blue-btn {
     position:relative;
     margin: auto;
     font-family: "Breamcatcher";
@@ -507,8 +502,8 @@ footer a {
     padding: 20px;
     pointer-events: all;
     color:var(--light-blue);
-  }
-  .blue-btn:before, .blue-btn:after {
+}
+.blue-btn:before, .blue-btn:after {
     z-index: -1;
     content: " ";
     display: block;
@@ -517,25 +512,78 @@ footer a {
     height: 8px;
     position: absolute;
     transition: all 0.3s;
-  }
-  .blue-btn:before {
+}
+.blue-btn:before {
     top:0;
     left: 4px;
     transform: translateY(-48%) skewX(45deg) rotate(-4deg);
-  }
-  .blue-btn:after {
+}
+.blue-btn:after {
     transform: translateY(48%) skewX(45deg) rotate(-4deg);
     right:4px;
     bottom: 0;
-  }
-  .blue-btn:hover {
+}
+.blue-btn:hover {
     border-color:var(--light-blue);
-  }
-  .blue-btn:hover:before {left:20px;}
-  .blue-btn:hover:after {right:20px;}
-  .blue-btn:hover:after, .blue-btn:hover:before {
+}
+.blue-btn:hover:before {
+    left:20px;
+}
+.blue-btn:hover:after {
+    right:20px;
+}
+.blue-btn:hover:after, .blue-btn:hover:before {
     background-color:var(--light-blue);
-  }
+}
+.lightblue-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 20px;
+    background: var(--light-blue);
+    color: var(--dark-blue);
+    border: 3px solid var(--light-white);
+    font-size: 18px;
+    font-family: "Orbitron", monospace;
+    z-index: 5;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.lightblue-btn:hover {
+    outline: 1px solid var(--light-blue);
+    outline-offset: -4px;
+    background: var(--dark-blue);
+    color: var(--light-blue);
+    border: 2px solid var(--light-blue);
+}
+.lightblue-btn:before, .lightblue-btn:after {
+    z-index: -1;
+    content: " ";
+    display: block;
+    background: var(--light-white);;
+    width: 80px;
+    height: 8px;
+    position: absolute;
+    transition: all 0.3s;
+}
+.lightblue-btn:before {
+    top:0;
+    left: 4px;
+    transform: translateY(-48%) skewX(45deg) rotate(-4deg);
+}
+.lightblue-btn:after {
+    transform: translateY(48%) skewX(45deg) rotate(-4deg);
+    right:4px;
+    bottom: 0;
+}
+.lightblue-btn:hover:before {
+    left:20px;
+}
+.lightblue-btn:hover:after {
+    right:20px;
+}
+.lightblue-btn:hover:after, .lightblue-btn:hover:before {
+    background-color:var(--light-blue);
+}
 /***** END - Buttons *****/
 
 /***** DIALOG / MODAL *****/

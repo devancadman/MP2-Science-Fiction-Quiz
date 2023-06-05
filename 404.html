@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Science Fiction trivia quiz game, with various categories.">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="assets/favicon/favicon.png" type="image/x-icon">
+  <title>404 Page: Error in the Space-Time Continuum!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body class="error404">
+   <!-- Fuzzy old Tv like Overlay -->
+  <div class="blink"></div>
+  <header>
+    <!-- Logo -->
+    <h1 id="page-heading">
+      <a class="logo" href="./index.html" aria-label="logo home page link">404 - Science Fiction Quiz</a>
+    </h1>
+
+    <nav>
+       <!-- Sound control buttons -->
+      <audio id="track" src="" type="audio/mpeg" autoplay></audio>
+      <div class="outline-btn sound-btn">
+        <div id="player-container">
+            <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
+        </div>
+      </div>
+      <button id="mute-button" class="mute-button"></button>
+        <!-- How to Play Button -->
+        <button data-open-modal class="outline-btn">How to Play?</button>
+        <!-- Modal for How to Play -->
+        <dialog id="modalHowtoplay" data-modal>
+          <div class="modal">
+              <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+              <div id="howtoplay-container">
+                <h2>How to Play?</h2>
+                <ul>
+                  <li>First Select a category from the List<br>OR<br>Click "Spin the Wheel" to select a category at Random</li>
+                  <li>This will take you to the "Select your Level" page.<br>Here you can choose from "Easy", "Medium" or "Hard".</li>
+                  <li>You will then be taken to the Quiz, here you will get a total of 10 questions to answer.</li>
+                  <li>Choose your answer, this will then be highlighted:<br>Green for Correct.<br>Red for Wrong.</li>
+                  <li>At the End you will be taken to the Results page.<br>Here you will be able to see all your answere with the questions, highlighted in the same way in green or red.</li>
+                  <li>Yes! you completed the quiz.<br>Now click on the "Home" Button to return back to the main home screen.</li>
+                </ul>
+              </div>
+            </div>
+        </dialog>
+      <!-- Home Button -->
+      <button id="home-button" class="outline-btn">Home</button>
+    </nav>
+  </header>
+  <main>
+    <h1>404 Error</h1>
+    <div id="text">
+      <div class="typing-error typewrite" data-type='["Warp Drive Malfunction. Please switch to impulse power and try again.", "Looks like our robotic overlords are having a coffee break. They&apos;ll be back soon with the missing page.", "Quantum Entanglement Detected. Our quizzes are so mind-boggling that even the laws of physics are confused!", "Apologies, but it seems our teleportation device malfunctioned. Your desired page is currently floating in another dimension.", "Time Paradox Detected. It seems you&apos;ve reached a moment that hasn&apos;t happened yet. Please be patient or invent a time machine.", "Whoops! It appears that a rogue robot mistook the page you were looking for as an art piece. It&apos;s currently on display at the Robot Art Museum.", "Alien Invasion Imminent. As a precautionary measure, we&apos;ve hidden the page from extraterrestrial beings. It will be back once the threat level subsides."]'></div>
+    </div>
+    <div class="error-message">
+      <p>Oops! It seems like you've stumbled upon a glitch in the space-time continuum. Our futuristic quiz portal has encountered a temporal disruption, and the page you were looking for has been lost somewhere in the vast expanse of the cosmos. Don't worry, though, our team of intergalactic engineers is working tirelessly to bring it back!</p>
+      <p>Remember, the future is full of surprises, and sometimes that includes unexpected errors. We appreciate your understanding as we navigate the quirks of the space-time continuum. Feel free to explore other corners of our futuristic quiz portal while we search for the missing page. May the force of knowledge be with you!</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+        <!-- Copywrite -->
+        <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
+        <!-- Project description -->
+        <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
+    </div>
+</footer>
+
+  <!-- JavaScript files -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

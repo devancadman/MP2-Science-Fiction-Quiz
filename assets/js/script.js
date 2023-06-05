@@ -217,7 +217,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   var hasVisitedBefore = localStorage.getItem('hasVisited'); // Check if the user has visited before
 
-  if (!hasVisitedBefore && overlay.style.display !== 'none') { // Show the overlay only for first-time visitors
+  if (hasVisitedBefore === null) { // Show the overlay only for first-time visitors
     overlay.style.display = 'flex';
     body.style.overflow = 'hidden';
     hoverSound.muted = true; // Mute the hover sound initially
@@ -236,7 +236,7 @@ window.addEventListener('DOMContentLoaded', function() {
   audioElements.forEach(function(audio) {
     audio.muted = true; // Mute all audio elements initially
   });
-  
+
   hoverSound.muted = true; // Mute the hover sound initially
 });
 

@@ -217,7 +217,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   var hasVisitedBefore = localStorage.getItem('hasVisited'); // Check if the user has visited before
 
-  if (!hasVisitedBefore) { // Show the overlay only for first-time visitors
+  if (!hasVisitedBefore && overlay.style.display !== 'none') { // Show the overlay only for first-time visitors
     overlay.style.display = 'flex';
     body.style.overflow = 'hidden';
     hoverSound.muted = true; // Mute the hover sound initially
@@ -241,62 +241,65 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 // 404 ERROR PAGE
-var TxtType = function(el, toRotate, period) { // Constructor function for TxtType
-  this.toRotate = toRotate; // Array of strings to rotate
-  this.el = el; // Element to apply the typing animation
-  this.loopNum = 0; // Current index of the toRotate array
-  this.period = parseInt(period, 10) || 2000; // Time period for each rotation
-  this.txt = ''; // Current text being typed
-  this.tick(); // Start the animation
-  this.isDeleting = false; // Flag to indicate if text is being deleted
-};
+// Check if the current page has the class .error404
+if (document.body.classList.contains('error404')) {
+  var TxtType = function(el, toRotate, period) { // Constructor function for TxtType
+    this.toRotate = toRotate; // Array of strings to rotate
+    this.el = el; // Element to apply the typing animation
+    this.loopNum = 0; // Current index of the toRotate array
+    this.period = parseInt(period, 10) || 2000; // Time period for each rotation
+    this.txt = ''; // Current text being typed
+    this.tick(); // Start the animation
+    this.isDeleting = false; // Flag to indicate if text is being deleted
+  };
 
-// Prototype method for TxtType that performs the animation
-TxtType.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length; // Get the current index of toRotate array
-  var fullTxt = this.toRotate[i]; // Get the full text for the current rotation
+  // Prototype method for TxtType that performs the animation
+  TxtType.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length; // Get the current index of toRotate array
+    var fullTxt = this.toRotate[i]; // Get the full text for the current rotation
 
-  // Determine if text should be deleted or typed
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1); // Remove the last character
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1); // Add the next character
-  }
-
-  this.el.textContent = this.txt; // Set the text content of the element
-
-  var that = this;
-  var delta = 200 - Math.random() * 100; // Time delay between each character
-
-  // Adjust the delay if text is being deleted
-  if (this.isDeleting) {
-    delta /= 2;
-  }
-
-  // Determine the state of the animation and set the appropriate delay
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period; // Text is fully typed, set delay before deletion
-    this.isDeleting = true; // Set the deleting flag
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false; // Text is fully deleted, set the next rotation
-    this.loopNum++; // Increment the loopNum for the next rotation
-    delta = 500; // Delay before typing the next rotation
-  }
-
-  // Call the tick function recursively after the delay
-  setTimeout(function() {
-    that.tick();
-  }, delta);
-};
-
-// Run the code when the window has finished loading
-window.onload = function() {
-  var elements = document.getElementsByClassName('typewrite'); // Get all elements with the class 'typewrite'
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-type'); // Get the 'data-type' attribute value
-    var period = elements[i].getAttribute('data-period'); // Get the 'data-period' attribute value
-    if (toRotate) {
-      new TxtType(elements[i], JSON.parse(toRotate), period); // Create a new TxtType instance for each element
+    // Determine if text should be deleted or typed
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1); // Remove the last character
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1); // Add the next character
     }
-  }
-};
+
+    this.el.textContent = this.txt; // Set the text content of the element
+
+    var that = this;
+    var delta = 200 - Math.random() * 100; // Time delay between each character
+
+    // Adjust the delay if text is being deleted
+    if (this.isDeleting) {
+      delta /= 2;
+    }
+
+    // Determine the state of the animation and set the appropriate delay
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period; // Text is fully typed, set delay before deletion
+      this.isDeleting = true; // Set the deleting flag
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false; // Text is fully deleted, set the next rotation
+      this.loopNum++; // Increment the loopNum for the next rotation
+      delta = 500; // Delay before typing the next rotation
+    }
+
+    // Call the tick function recursively after the delay
+    setTimeout(function() {
+      that.tick();
+    }, delta);
+  };
+
+  // Run the code when the window has finished loading
+  window.onload = function() {
+    var elements = document.getElementsByClassName('typewrite'); // Get all elements with the class 'typewrite'
+    for (var i = 0; i < elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-type'); // Get the 'data-type' attribute value
+      var period = elements[i].getAttribute('data-period'); // Get the 'data-period' attribute value
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period); // Create a new TxtType instance for each element
+      }
+    }
+  };
+}

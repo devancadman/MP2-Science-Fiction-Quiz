@@ -544,6 +544,7 @@ button.option {
     font-family: "Orbitron", monospace;
     font-weight: bold;
     margin-bottom: 1rem;
+    position: relative;
 }
 .lightblue-btn:hover {
     outline: 1px solid var(--light-blue);
@@ -1012,7 +1013,7 @@ select:hover {
     font-weight: bold;
     color: #fff;
     background-color: var(--border-blue);
-    padding: 20px;
+    padding: 20px 35px;
     margin: 20px;
     clip-path: polygon(5% 0%, 95% 0%, 100% 53%, 95% 100%, 5% 100%, 0% 53%);
 }

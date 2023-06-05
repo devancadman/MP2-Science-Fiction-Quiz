@@ -794,7 +794,7 @@ select {
     display: inline-flex;
     align-items: center;
     padding: 15px 20px;
-    background: var(--light-white);
+    background: #fff;
     color: var(--border-blue);
     border: 2px solid var(--border-blue);
     font-size: 18px;
@@ -802,7 +802,7 @@ select {
     z-index: 5;
     font-weight: bold;
 }
-select option:hover {
+select:hover {
     background: var(--light-blue);
     color: var(--dark-blue);
 }

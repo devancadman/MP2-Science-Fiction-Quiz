@@ -1646,18 +1646,18 @@
             "Azazel"
           ],
           "level": "easy",
-          "correctIndex": 3
+          "correctIndex": 1
         },
         {
           "question": "What is the name of the Supernatural spin-off series that focuses on the monster-hunting family?",
           "options": [
             "Supernatural: Bloodlines",
-            "Supernatural: Legacy",
-            "Supernatural: Wayward Sisters",
+            "The Winchesters",
+            "Wayward Sisters",
             "Supernatural: Origins"
           ],
           "level": "easy",
-          "correctIndex": 2
+          "correctIndex": 1
         },
         {
           "question": "What is the name of the archangel who is Lucifer's brother?",
@@ -1962,13 +1962,13 @@
             "Gabriel",
             "Raphael",
             "Metatron",
-            "Castiel"
+            "Sam"
           ],
           "level": "hard",
           "correctIndex": 3
         },
         {
-          "question": "What is the name of the secret society of hunters that Sam and Dean encounter in the episode 'Hunting Party'?",
+          "question": "What is the name of the secret society of hunters that Sam and Dean encounter in the episode 'Slumber Party'?",
           "options": [
             "The Thule Society",
             "The Men of Letters",
@@ -1976,7 +1976,7 @@
             "The Order of the Cross"
           ],
           "level": "hard",
-          "correctIndex": 0
+          "correctIndex": 1
         },
         {
           "question": "Who is the witch who casts the spell to remove the Mark of Cain from Dean's arm?",

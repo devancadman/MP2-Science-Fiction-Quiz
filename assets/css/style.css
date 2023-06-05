@@ -23,7 +23,7 @@
     --dark-blue: #051417;
     --border-blue: #051c25;
     --light-blue: #4AC0DB;
---light-white:  rgba(255, 255, 255, 0.5)
+    --light-white:  rgba(255, 255, 255, 0.5)
 }
 
 *, *:before, *:after {
@@ -45,11 +45,12 @@ body {
 
 ::selection {
     background:var(--light-blue);
-    color:#fff;
+    color:var(--dark-blue);
 }
 
 h1, h2, h3 {
     color: #fff;
+    text-align: center;
 }
 
 ul {
@@ -202,6 +203,9 @@ img#muteIcon {
 }
 .category-wheel ul li {
     font-family: "Breamcatcher";
+}
+li.category:nth-child(even) {
+    color: #051417;
 }
 .category-wheel .btn-spin {
     grid-area: trigger;
@@ -925,7 +929,6 @@ p.correct-answer {
 #overlay-content p {
     font-size: 18px;
     cursor: pointer;
-    max-width:250px;
 }
 /* END - Overlay *****/
 

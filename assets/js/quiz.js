@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateProgressText();
     }
 
-     // Check the selected answer
+    // Check the selected answer
     function checkAnswer(selectedIndex, optionElement) {
     const currentQuestion = questions[questionIndices[currentQuestionIndex]];
     const correctIndex = currentQuestion.correctIndex;
@@ -211,7 +211,23 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         resultContainer.appendChild(answeredQuestionsList);
+
+        // Show the "Play Again!" button
+        showElement(playAgainButton);
     }
+
+    // Create the "Play Again!" button
+    const playAgainButton = document.getElementById("play-again-button");
+
+    // Event listener for the "Play Again!" button click
+    playAgainButton.addEventListener("click", () => {
+        // Construct the URL with the category parameter and navigate to the levels page
+        const levelsURL = `levels.html?category=${encodeURIComponent(category)}`;
+        window.location.href = levelsURL;
+    });
+
+    // Hide the "Play Again!" button initially
+    hideElement(playAgainButton);
 
     // Update progress bar and text
     function updateProgressText() {
@@ -238,13 +254,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function goBackToHome() {
         window.location.href = "index.html";
     }
-
-    // Event listener for the "Play Again!" button click
-    document.getElementById("play-again-button").addEventListener("click", () => {
-        // Construct the URL with the category parameter and navigate to the levels page
-        const levelsURL = `levels.html?category=${encodeURIComponent(category)}`;
-        window.location.href = levelsURL;
-    });
 
     // Event listeners
     nextButton.addEventListener("click", nextQuestion);

@@ -262,3 +262,17 @@ document.addEventListener("DOMContentLoaded", function () {
   // Fetch questions when the DOM is loaded
   fetchQuestions();
 });
+
+// Get the Stored audio current time, if it is in the localStorage
+window.addEventListener("DOMContentLoaded", function() {
+    const audioElement = getAudioElementByCategory(category);
+    const storedTime = localStorage.getItem("musicTime");
+  
+    if (audioElement && storedTime) {
+      audioElement.currentTime = parseFloat(storedTime);
+    }
+  
+    if (audioElement) {
+      audioElement.play();
+    }
+  });

@@ -194,7 +194,7 @@ img#muteIcon {
     grid-template-areas:
         "spinner"
         "trigger";
-    font-family: "Girassol", sans-serif;
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
     font-size: calc(var(--size) / 21);
     line-height: 1;
     text-transform: lowercase;
@@ -205,7 +205,7 @@ img#muteIcon {
     grid-area: spinner;
 }
 .category-wheel ul li {
-    font-family: "Breamcatcher";
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
 }
 li.category:nth-child(even) {
     color: #051417;
@@ -270,7 +270,7 @@ li.category:nth-child(even) {
     padding: 0.9rem 2rem 1rem;
     border-radius: 50%;
     transition: opacity 200ms ease-in-out;
-    font-family: "Breamcatcher";
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
 }
 .btn-spin:focus {
     outline-offset: 2px;
@@ -332,7 +332,7 @@ li.category:nth-child(even) {
 }
 #category-list li {
     text-align: center;
-    font-family: "Breamcatcher", monospace;
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
     display: block;
     width: 75%;
     margin: 1rem auto;
@@ -406,7 +406,7 @@ button.option {
     padding: 12px 20px;
     position: relative;
     margin: auto;
-    font-family: "Breamcatcher";
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
     font-size: 22px;
     text-align: center;
     min-width: 45%;
@@ -423,7 +423,7 @@ button.option {
 .wrong {
     position: relative;
     margin: auto;
-    font-family: "Breamcatcher";
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
     font-size: 22px;
     text-align: center;
     min-width: 200px;
@@ -457,7 +457,7 @@ button.option {
   
 .correct {
     position:relative;
-    font-family: "Breamcatcher";
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
     font-size: 22px;
     text-align: center;
     min-width: 200px;
@@ -492,7 +492,7 @@ button.option {
 .blue-btn {
     position:relative;
     margin: auto;
-    font-family: "Breamcatcher";
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
     font-size: 22px;
     text-align: center;
     min-width: 200px;
@@ -658,7 +658,7 @@ dialog p {
     width: 30px;
     height: 30px;
     font-size: 20px;
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', monospace;;
 }
 #howtoplay-container {
     counter-reset: item;

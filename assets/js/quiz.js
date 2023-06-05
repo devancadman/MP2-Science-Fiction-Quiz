@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Event listener for the "Play Again!" button click
     playAgainButton.addEventListener("click", () => {
         // Construct the URL with the category parameter and navigate to the levels page
-        const levelsURL = `levels.html?category=${encodeURIComponent(category)}`;
+        const levelsURL = `level.html?category=${encodeURIComponent(category)}`;
         window.location.href = levelsURL;
     });
 

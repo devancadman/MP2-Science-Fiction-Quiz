@@ -739,6 +739,23 @@ p.correct-answer {
 .level .correct:hover:after, .level .correct:hover:before {
     background-color: var(--green);
 }
+/* Change Category - Select */
+select {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 20px;
+    background: var(--light-white);
+    color: var(--border-blue);
+    border: 2px solid var(--border-blue);
+    font-size: 18px;
+    font-family: "Orbitron", monospace;
+    z-index: 5;
+    font-weight: bold;
+}
+select option:hover {
+    background: var(--light-blue);
+    color: var(--dark-blue);
+}
 /***** END - Level Page *****/
 
 /***** Background-Images *****/

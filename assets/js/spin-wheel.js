@@ -153,6 +153,7 @@ trigger.addEventListener("click", () => {
 
     // Play the spin sound
     spinSound.currentTime = 0;
+    spinSound.volume = 0.5; // Adjust the volume level (0.0 to 1.0)
     spinSound.play();
 
     runTickerAnimation();

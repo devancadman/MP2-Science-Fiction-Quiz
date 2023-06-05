@@ -239,6 +239,13 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "index.html";
     }
 
+    // Event listener for the "Play Again!" button click
+    document.getElementById("play-again-button").addEventListener("click", () => {
+        // Construct the URL with the category parameter and navigate to the levels page
+        const levelsURL = `levels.html?category=${encodeURIComponent(category)}`;
+        window.location.href = levelsURL;
+    });
+
     // Event listeners
     nextButton.addEventListener("click", nextQuestion);
     homeButton.addEventListener("click", goBackToHome);

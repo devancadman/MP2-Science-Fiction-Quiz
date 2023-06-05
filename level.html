@@ -12,60 +12,64 @@
 <body  class="level">
     <!-- Fuzzy old Tv like Overlay -->
     <div class="blink"></div>
-    <header>
-        <!-- Logo -->
-        <h1 id="page-heading">
-            <a class="logo" href="./index.html" aria-label="logo home page link">Science Fiction Quiz</a>
-        </h1>
 
-        <nav>
-            <!-- Sound control buttons -->
-            <audio id="track" src="" type="audio/mpeg" autoplay></audio>
-            <div class="outline-btn sound-btn">
-              <div id="player-container">
-                  <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
-              </div>
-            </div>
-            <button id="mute-button" class="mute-button"></button>
-            <!-- How to Play Button -->
-            <button data-open-modal class="outline-btn">How to Play?</button>
-            <!-- Modal for How to Play -->
-            <dialog id="modalHowtoplay" data-modal>
-                <div class="modal">
-                    <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
-                    <div id="howtoplay-container">
-                        <h2>How to Play?</h2>
-                        <ul>
-                            <li>First Select a category from the List<br>OR<br>Click "Spin the Wheel" to select a category at Random</li>
-                            <li>This will take you to the "Select your Level" page.<br>Here you can choose from "Easy", "Medium" or "Hard".</li>
-                            <li>You will then be taken to the Quiz, here you will get a total of 10 questions to answer.</li>
-                            <li>Choose your answer, this will then be highlighted:<br>Green for Correct.<br>Red for Wrong.</li>
-                            <li>At the End you will be taken to the Results page.<br>Here you will be able to see all your answers with the questions, highlighted in the same way in green or red.</li>
-                            <li>Yes! you completed the quiz.<br>Now click on the "Home" Button to return back to the main home screen.</li>
-                        </ul>
-                    </div>
+    <!-- Border Box -->
+    <div class="border-box">
+        <header>
+            <!-- Logo -->
+            <h1 id="page-heading">
+                <a class="logo" href="./index.html" aria-label="logo home page link">Science Fiction Quiz</a>
+            </h1>
+
+            <nav>
+                <!-- Sound control buttons -->
+                <audio id="track" src="" type="audio/mpeg" autoplay></audio>
+                <div class="outline-btn sound-btn">
+                <div id="player-container">
+                    <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
                 </div>
-            </dialog>
-            <!-- Home Button -->
-            <button id="home-button" class="outline-btn">Home</button>
-        </nav>
-    </header>
+                </div>
+                <button id="mute-button" class="mute-button"></button>
+                <!-- How to Play Button -->
+                <button data-open-modal class="outline-btn">How to Play?</button>
+                <!-- Modal for How to Play -->
+                <dialog id="modalHowtoplay" data-modal>
+                    <div class="modal">
+                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <div id="howtoplay-container">
+                            <h2>How to Play?</h2>
+                            <ul>
+                                <li>First Select a category from the List<br>OR<br>Click "Spin the Wheel" to select a category at Random</li>
+                                <li>This will take you to the "Select your Level" page.<br>Here you can choose from "Easy", "Medium" or "Hard".</li>
+                                <li>You will then be taken to the Quiz, here you will get a total of 10 questions to answer.</li>
+                                <li>Choose your answer, this will then be highlighted:<br>Green for Correct.<br>Red for Wrong.</li>
+                                <li>At the End you will be taken to the Results page.<br>Here you will be able to see all your answers with the questions, highlighted in the same way in green or red.</li>
+                                <li>Yes! you completed the quiz.<br>Now click on the "Home" Button to return back to the main home screen.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </dialog>
+                <!-- Home Button -->
+                <button id="home-button" class="outline-btn">Home</button>
+            </nav>
+        </header>
 
-    <main class="grid">
-        <h2>Choose your Level:</h2>
-        <!-- HTML structure for level menu page -->
-        <div id="level-menu"></div>
-    </main>
+        <main class="grid">
+            <h2>Choose your Level:</h2>
+            <!-- HTML structure for level menu page -->
+            <div id="level-menu"></div>
+        </main>
 
-    <footer>
-        <div class="container">
-            <!-- Copywrite -->
-            <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
-            <!-- Project description -->
-            <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
-        </div>
-    </footer>
-
+        <footer>
+            <div class="container">
+                <!-- Copywrite -->
+                <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
+                <!-- Project description -->
+                <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
+            </div>
+        </footer>
+    </div>
+    
     <!-- JavaScript files -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/levels.js"></script>

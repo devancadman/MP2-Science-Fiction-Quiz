@@ -930,7 +930,7 @@ select:hover {
     align-items: center;
     justify-content: center;
     z-index: 99999;
-    background: linear-gradient(0deg, rgba(5, 20, 23, 0.8), rgba(5, 20, 23, 0.8)), url("../favicon/favicon.png") center var(--dark-blue);
+    background: linear-gradient(0deg, rgba(5, 20, 23, 0.8), rgba(5, 20, 23, 0.8)), url("../images/trangle-icon.webp") center var(--dark-blue);
     -webkit-animation: bg-scrolling-reverse 10s infinite;
     /* Safari 4+ */
     -moz-animation: bg-scrolling-reverse 10s infinite;

@@ -1132,8 +1132,8 @@ select:hover {
     body {
         padding: 5%;
         margin-top: 3rem;
-        /*outline-offset: -0.5rem;*/
         display: block;
+        height: 100%;
     }
     a.logo {
         width: 70%;

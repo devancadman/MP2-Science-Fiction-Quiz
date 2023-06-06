@@ -1090,6 +1090,15 @@ select:hover {
     display: inline-grid;
     grid-column: 1 / span 2;
 }
+#contact-form input {
+    min-height: 35px;
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-family: "Breamcatcher", 'Lucida Sans Typewriter', Helvetica, sans-serif;
+}
+#contact-form input:focus, #contact-form input:hover, #contact-form input:active {
+    outline: 2px solid var(--light-blue);
+}
 /***** END - Contact Form *****/
 
 /***** MEDIA QUERIES *****/

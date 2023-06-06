@@ -619,7 +619,7 @@ dialog .close-btn {
     cursor:pointer;
 }
 dialog .close-btn:hover, dialog .close-btn:active {
-    color:#fff;
+    color: var(--dark-blue);
     background-color: var(--light-blue);
     transition: all .25s;
 }

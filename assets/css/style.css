@@ -1042,6 +1042,40 @@ select:hover {
 }
 /***** END - 404 Error page *****/
 
+/***** CONTACT FORM *****/
+.contact-btn {
+    display:block;
+    position: relative;
+    align-items: center;
+    padding: 15px 20px;
+    padding-left: 3rem !important;
+    background: none;
+    color: #fff;
+    border: 2px solid var(--light-blue);
+    font-size: 18px;
+    font-family: "Orbitron", monospace;
+    z-index: 5;
+    font-weight: bold;
+}
+.contact-btn:hover {
+    color: var(--light-blue);
+}
+.contact-btn:before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/envelope.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contact-btn:hover:before {
+    background-image: url("../images/envelope-blue.webp");
+}
+/***** END - Contact Form *****/
+
 /***** MEDIA QUERIES *****/
 @media (max-width:1024px) {
     header {

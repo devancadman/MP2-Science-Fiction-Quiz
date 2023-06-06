@@ -599,6 +599,7 @@ dialog {
     padding: 0;
     margin: 0;
     max-height: 450px;
+    overflow-x: hidden;
 }
 dialog .close-btn {
     position: absolute;

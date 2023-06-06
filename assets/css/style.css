@@ -1077,6 +1077,18 @@ select:hover {
 .contact-btn:hover:before {
     background-image: url("../images/envelope-blue.webp");
 }
+#contact-form {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;  
+    justify-content: center;  
+    align-items: center;  
+    text-align: center; 
+    gap: 1rem; 
+}
+#submit-button {
+    display: inline-grid;
+    grid-column: 1 / span 2;
+}
 /***** END - Contact Form *****/
 
 /***** MEDIA QUERIES *****/

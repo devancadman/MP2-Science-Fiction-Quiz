@@ -1150,6 +1150,9 @@ select:hover {
     .grid {
         margin: 0;
     }
+    #overlay-content {
+        grid-gap: 2rem;
+    }
     .btn-spin {
         margin-left: -0.5rem;
     }

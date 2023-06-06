@@ -37,13 +37,13 @@
                     <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
                 </div>
                 </div>
-                <button id="mute-button" class="mute-button"></button>
+                <button id="mute-button" class="mute-button" aria-label="mute button"></button>
                 <!-- How to Play Button -->
-                <button data-open-modal class="outline-btn">How to Play?</button>
+                <button data-open-modal class="outline-btn" aria-label="how to play button">How to Play?</button>
                 <!-- Modal for How to Play -->
                 <dialog id="modalHowtoplay" data-modal>
                     <div class="modal">
-                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
                         <div id="howtoplay-container">
                             <h2>How to Play?</h2>
                             <ul>
@@ -58,7 +58,7 @@
                     </div>
                 </dialog>
                 <!-- Home Button -->
-                <button id="home-button" class="outline-btn">Home</button>
+                <button id="home-button" class="outline-btn" aria-label="home button">Home</button>
             </nav>
         </header>
 
@@ -78,7 +78,7 @@
         
                 <p id="error-message" class="error-message"></p> <!-- Element to display error messages, if any -->
         
-                <button id="next-button" class="blue-btn">Next</button> <!-- Button to proceed to the next question -->
+                <button id="next-button" class="blue-btn" aria-label="next question button">Next</button> <!-- Button to proceed to the next question -->
             </div>
 
             <!-- Container for quiz result -->
@@ -87,17 +87,17 @@
                 <p id="result-text"></p> <!-- Paragraph to display the quiz result text -->
             </div>
 
-            <button id="play-again-button" class="lightblue-btn">Play Again!</button>
+            <button id="play-again-button" class="lightblue-btn" aria-label="play again button">Play Again!</button>
         </main>
 
         <footer>
             <div class="container">
                 <!-- Contact Button -->
-                <button data-open-modal class="contact-btn">Feedback / Report bugs</button>
+                <button data-open-modal class="contact-btn" aria-label="Contact button">Feedback / Report bugs</button>
                 <!-- Modal for Contact Form -->
                 <dialog id="modalContact" data-modal>
                     <div class="modal">
-                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
                         <div id="contact-container">
                             <h2>Get in Touch</h2>
                             <p>Please use this form to provide feedback or report any bugs you find.</p>
@@ -131,10 +131,11 @@
                 <!-- Copywrite -->
                 <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
                 <!-- Project description -->
-                <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
+                <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank" aria-label="github link"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank" aria-label="code institute link"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
             </div>
         </footer>
     </div>
+
 
     <!-- JavaScript files -->
     <script src="assets/js/script.js"></script>

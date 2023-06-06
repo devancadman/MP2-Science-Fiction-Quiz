@@ -37,13 +37,13 @@
                     <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
                 </div>
                 </div>
-                <button id="mute-button" class="mute-button"></button>
+                <button id="mute-button" class="mute-button" aria-label="mute button"></button>
                 <!-- How to Play Button -->
-                <button data-open-modal class="outline-btn">How to Play?</button>
+                <button data-open-modal class="outline-btn" aria-label="how to play button">How to Play?</button>
                 <!-- Modal for How to Play -->
                 <dialog id="modalHowtoplay" data-modal>
                     <div class="modal">
-                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
                         <div id="howtoplay-container">
                             <h2>How to Play?</h2>
                             <ul>
@@ -58,7 +58,7 @@
                     </div>
                 </dialog>
                 <!-- Home Button -->
-                <button id="home-button" class="outline-btn">Home</button>
+                <button id="home-button" class="outline-btn" aria-label="home button">Home</button>
             </nav>
         </header>
 
@@ -69,16 +69,16 @@
 
             <select onchange="window.location.href=this.value">
                 <option value="">Change Category?</option>
-                <option value="level.html?category=Game%20of%20Thrones">Game of Thrones</option>
-                <option value="level.html?category=Scorpion">Scorpion</option>
-                <option value="level.html?category=Star%20Trek">Star Trek</option>
-                <option value="level.html?category=Supernatural">Supernatural</option>
-                <option value="level.html?category=Doctor%20Who">Doctor Who</option>
-                <option value="level.html?category=The%20Big%20Bang%20Theory">The Big Bang Theory</option>
-                <option value="level.html?category=Stranger%20Things">Stranger Things</option>
-                <option value="level.html?category=Star%20Wars">Star Wars</option>
-                <option value="level.html?category=Stargate">Stargate</option>
-                <option value="level.html?category=Harry%20Potter">Harry Potter</option>
+                <option value="level.html?category=Game%20of%20Thrones" aria-label="Game of Thrones category link">Game of Thrones</option>
+                <option value="level.html?category=Scorpion" aria-label="Scorpion category link">Scorpion</option>
+                <option value="level.html?category=Star%20Trek" aria-label="Star Trek category link">Star Trek</option>
+                <option value="level.html?category=Supernatural" aria-label="Supernatural category link">Supernatural</option>
+                <option value="level.html?category=Doctor%20Who" aria-label="Doctor Who category link">Doctor Who</option>
+                <option value="level.html?category=The%20Big%20Bang%20Theory" aria-label="The Big Bang Theory category link">The Big Bang Theory</option>
+                <option value="level.html?category=Stranger%20Things" aria-label="Stranger Things category link">Stranger Things</option>
+                <option value="level.html?category=Star%20Wars" aria-label="Star Wars category link">Star Wars</option>
+                <option value="level.html?category=Stargate" aria-label="Stargate category link">Stargate</option>
+                <option value="level.html?category=Harry%20Potter" aria-label="Harry Potter category link">Harry Potter</option>
             </select>
 
         </main>
@@ -86,11 +86,11 @@
         <footer>
             <div class="container">
                 <!-- Contact Button -->
-                <button data-open-modal class="contact-btn">Feedback / Report bugs</button>
+                <button data-open-modal class="contact-btn" aria-label="Contact button">Feedback / Report bugs</button>
                 <!-- Modal for Contact Form -->
                 <dialog id="modalContact" data-modal>
                     <div class="modal">
-                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
                         <div id="contact-container">
                             <h2>Get in Touch</h2>
                             <p>Please use this form to provide feedback or report any bugs you find.</p>
@@ -124,7 +124,7 @@
                 <!-- Copywrite -->
                 <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
                 <!-- Project description -->
-                <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
+                <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank" aria-label="github link"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank" aria-label="code institute link"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
             </div>
         </footer>
     </div>

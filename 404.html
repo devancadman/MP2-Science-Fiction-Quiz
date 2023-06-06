@@ -21,44 +21,44 @@
    <!-- Fuzzy old Tv like Overlay -->
   <div class="blink"></div>
   
-  <!-- Border Box -->
-  <div class="border-box">
-    <header>
-      <!-- Logo -->
-      <h1 id="page-heading">
+<!-- Border Box -->
+<div class="border-box">
+  <header>
+    <!-- Logo -->
+    <h1 id="page-heading">
         <a class="logo" href="./index.html" aria-label="logo home page link">404 - Science Fiction Quiz</a>
-      </h1>
+    </h1>
 
-      <nav>
+    <nav>
         <!-- Sound control buttons -->
         <audio id="track" src="" type="audio/mpeg" autoplay></audio>
         <div class="outline-btn sound-btn">
-          <div id="player-container">
-              <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
-          </div>
+        <div id="player-container">
+            <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
         </div>
-        <button id="mute-button" class="mute-button"></button>
-          <!-- How to Play Button -->
-          <button data-open-modal class="outline-btn">How to Play?</button>
-          <!-- Modal for How to Play -->
-          <dialog id="modalHowtoplay" data-modal>
-            <div class="modal">
-                <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
-                <div id="howtoplay-container">
-                  <h2>How to Play?</h2>
-                  <ul>
-                    <li>First Select a category from the List<br>OR<br>Click "Spin the Wheel" to select a category at Random</li>
-                    <li>This will take you to the "Select your Level" page.<br>Here you can choose from "Easy", "Medium" or "Hard".</li>
-                    <li>You will then be taken to the Quiz, here you will get a total of 10 questions to answer.</li>
-                    <li>Choose your answer, this will then be highlighted:<br>Green for Correct.<br>Red for Wrong.</li>
-                    <li>At the End you will be taken to the Results page.<br>Here you will be able to see all your answere with the questions, highlighted in the same way in green or red.</li>
-                    <li>Yes! you completed the quiz.<br>Now click on the "Home" Button to return back to the main home screen.</li>
-                  </ul>
-                </div>
-              </div>
-          </dialog>
+        </div>
+        <button id="mute-button" class="mute-button" aria-label="mute button"></button>
+        <!-- How to Play Button -->
+        <button data-open-modal class="outline-btn" aria-label="how to play button">How to Play?</button>
+        <!-- Modal for How to Play -->
+        <dialog id="modalHowtoplay" data-modal>
+          <div class="modal">
+              <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
+            <div id="howtoplay-container">
+              <h2>How to Play?</h2>
+              <ul>
+                <li>First Select a category from the List<br>OR<br>Click "Spin the Wheel" to select a category at Random</li>
+                <li>This will take you to the "Select your Level" page.<br>Here you can choose from "Easy", "Medium" or "Hard".</li>
+                <li>You will then be taken to the Quiz, here you will get a total of 10 questions to answer.</li>
+                <li>Choose your answer, this will then be highlighted:<br>Green for Correct.<br>Red for Wrong.</li>
+                <li>At the End you will be taken to the Results page.<br>Here you will be able to see all your answere with the questions, highlighted in the same way in green or red.</li>
+                <li>Yes! you completed the quiz.<br>Now click on the "Home" Button to return back to the main home screen.</li>
+              </ul>
+            </div>
+          </div>
+        </dialog>
         <!-- Home Button -->
-        <button id="home-button" class="outline-btn">Home</button>
+        <button id="home-button" class="outline-btn" aria-label="home button">Home</button>
       </nav>
     </header>
     <main>
@@ -70,17 +70,17 @@
         <p>Oops! It seems like you've stumbled upon a glitch in the space-time continuum. Our futuristic quiz portal has encountered a temporal disruption, and the page you were looking for has been lost somewhere in the vast expanse of the cosmos. Don't worry, though, our team of intergalactic engineers is working tirelessly to bring it back!</p>
         <p>Remember, the future is full of surprises, and sometimes that includes unexpected errors. We appreciate your understanding as we navigate the quirks of the space-time continuum. Feel free to explore other corners of our futuristic quiz portal while we search for the missing page. May the force of knowledge be with you!</p>
       </div>
-      <a href="./index.html" class="wrong" aria-labels="Home Button">Return Home!</a>
+      <a href="./index.html" class="wrong" aria-labels="Return Home Button">Return Home!</a>
     </main>
 
     <footer>
       <div class="container">
           <!-- Contact Button -->
-          <button data-open-modal class="contact-btn">Feedback / Report bugs</button>
+          <button data-open-modal class="contact-btn" aria-label="Contact button">Feedback / Report bugs</button>
           <!-- Modal for Contact Form -->
           <dialog id="modalContact" data-modal>
               <div class="modal">
-                  <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                  <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
                   <div id="contact-container">
                       <h2>Get in Touch</h2>
                       <p>Please use this form to provide feedback or report any bugs you find.</p>
@@ -114,7 +114,7 @@
           <!-- Copywrite -->
           <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
           <!-- Project description -->
-          <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
+          <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank" aria-label="github link"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank" aria-label="code institute link"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
       </div>
   </footer>
 </div>

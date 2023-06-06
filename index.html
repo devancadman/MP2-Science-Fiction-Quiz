@@ -21,9 +21,9 @@
     <!-- Click to Play Overlay Screen-->
     <div id="overlay">
         <div id="overlay-content">
-        <h1>Welcome to the<br>Science Fiction Quiz!</h1>
-        <p class="blue-btn">Click to Play</p>
-        <p class="wrong">Important: This site uses sound/music.<br>Please adjust your volume or mute the audio if needed.</p>
+            <h1>Welcome to the<br>Science Fiction Quiz!</h1>
+            <p class="blue-btn" aria-label="Play button">Click to Play</p>
+            <p class="wrong">Important: This site uses sound/music.<br>Please adjust your volume or mute the audio if needed.</p>
         </div>
     </div>
     <!-- Fuzzy old Tv like Overlay -->
@@ -45,13 +45,13 @@
                     <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
                 </div>
                 </div>
-                <button id="mute-button" class="mute-button"></button>
+                <button id="mute-button" class="mute-button" aria-label="mute button"></button>
                 <!-- How to Play Button -->
-                <button data-open-modal class="outline-btn">How to Play?</button>
+                <button data-open-modal class="outline-btn" aria-label="how to play button">How to Play?</button>
                 <!-- Modal for How to Play -->
                 <dialog id="modalHowtoplay" data-modal>
                     <div class="modal">
-                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
                         <div id="howtoplay-container">
                             <h2>How to Play?</h2>
                             <ul>
@@ -66,7 +66,7 @@
                     </div>
                 </dialog>
                 <!-- Home Button -->
-                <button id="home-button" class="outline-btn">Home</button>
+                <button id="home-button" class="outline-btn" aria-label="home button">Home</button>
             </nav>
         </header>
 
@@ -77,7 +77,7 @@
                 <div class="category-wheel">
                 <ul class="spinner"></ul>
                 <div class="cap">
-                    <button class="btn-spin">Spin the wheel</button>
+                    <button class="btn-spin" aria-label="wheel spin button">Spin the wheel</button>
                 </div>
                 <div class="ticker"></div>
                 </div>
@@ -86,16 +86,16 @@
             <div id="category-list">
             <h2>Select a category:</h2>
             <ul>
-                <li><a class="blue-btn" href="level.html?category=Game%20of%20Thrones">Game of Thrones</a></li>
-                <li><a class="blue-btn" href="level.html?category=Scorpion">Scorpion</a></li>
-                <li><a class="blue-btn" href="level.html?category=Star%20Trek">Star Trek</a></li>
-                <li><a class="blue-btn" href="level.html?category=Supernatural">Supernatural</a></li>
-                <li><a class="blue-btn" href="level.html?category=Doctor%20Who">Doctor Who</a></li>
-                <li><a class="blue-btn" href="level.html?category=The%20Big%20Bang%20Theory">The Big Bang Theory</a></li>
-                <li><a class="blue-btn" href="level.html?category=Stranger%20Things">Stranger Things</a></li>
-                <li><a class="blue-btn" href="level.html?category=Star%20Wars">Star Wars</a></li>
-                <li><a class="blue-btn" href="level.html?category=Stargate">Stargate</a></li>
-                <li><a class="blue-btn" href="level.html?category=Harry%20Potter">Harry Potter</a></li>
+                <li><a class="blue-btn" aria-label="Game of Thrones category link" href="level.html?category=Game%20of%20Thrones">Game of Thrones</a></li>
+                <li><a class="blue-btn" aria-label="Scorpion category link" href="level.html?category=Scorpion">Scorpion</a></li>
+                <li><a class="blue-btn" aria-label="Star Trek category link" href="level.html?category=Star%20Trek">Star Trek</a></li>
+                <li><a class="blue-btn" aria-label="Supernatural category link" href="level.html?category=Supernatural">Supernatural</a></li>
+                <li><a class="blue-btn" aria-label="Doctor Who category link" href="level.html?category=Doctor%20Who">Doctor Who</a></li>
+                <li><a class="blue-btn" aria-label="The Big Bang Theory category link" href="level.html?category=The%20Big%20Bang%20Theory">The Big Bang Theory</a></li>
+                <li><a class="blue-btn" aria-label="Stranger Things category link" href="level.html?category=Stranger%20Things">Stranger Things</a></li>
+                <li><a class="blue-btn" aria-label="Star Wars category link" href="level.html?category=Star%20Wars">Star Wars</a></li>
+                <li><a class="blue-btn" aria-label="Stargate category link" href="level.html?category=Stargate">Stargate</a></li>
+                <li><a class="blue-btn" aria-label="Harry Potter category link" href="level.html?category=Harry%20Potter">Harry Potter</a></li>
             </ul>
             </div>
         </main>
@@ -103,11 +103,11 @@
         <footer>
             <div class="container">
                 <!-- Contact Button -->
-                <button data-open-modal class="contact-btn">Feedback / Report bugs</button>
+                <button data-open-modal class="contact-btn" aria-label="Contact button">Feedback / Report bugs</button>
                 <!-- Modal for Contact Form -->
                 <dialog id="modalContact" data-modal>
                     <div class="modal">
-                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
                         <div id="contact-container">
                             <h2>Get in Touch</h2>
                             <p>Please use this form to provide feedback or report any bugs you find.</p>
@@ -141,7 +141,7 @@
                 <!-- Copywrite -->
                 <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
                 <!-- Project description -->
-                <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
+                <p>This website was created for educational purposes. By <a href="https://github.com/devancadman" target="_blank" aria-label="github link"> Devan </a> for <a href="https://codeinstitute.net/full-stack-software-development-diploma/" target="_blank" aria-label="code institute link"> <img src="https://devancadman.github.io/hosted-assets/code-institute-technology-logo.png" alt="Code Institute"> </a> as his Milestone Project 2.</p>
             </div>
         </footer>
     </div>

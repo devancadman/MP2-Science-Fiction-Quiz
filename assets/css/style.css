@@ -598,7 +598,7 @@ dialog {
     border-radius: 0;
     padding: 0;
     margin: 0;
-    max-height: 450px;
+    max-height: 80vh;
     overflow-x: hidden;
 }
 dialog .close-btn {

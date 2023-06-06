@@ -1131,7 +1131,7 @@ select:hover {
 @media (max-width:768px){
     body {
         padding: 5%;
-        margin-top: 3rem;
+        margin-top: 5rem;
         display: block;
         height: 100%;
     }

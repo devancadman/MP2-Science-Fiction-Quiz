@@ -1047,7 +1047,7 @@ select:hover {
     display:block;
     position: relative;
     align-items: center;
-    padding: 15px 20px;
+    padding: 10px;
     padding-left: 3rem !important;
     background: none;
     color: #fff;
@@ -1056,6 +1056,8 @@ select:hover {
     font-family: "Orbitron", monospace;
     z-index: 5;
     font-weight: bold;
+    margin: auto auto 1rem;
+    filter: drop-shadow(-1px 3px 8px rgba(74, 192, 219, 0.5));
 }
 .contact-btn:hover {
     color: var(--light-blue);
@@ -1064,7 +1066,8 @@ select:hover {
     content: "";
     position: absolute;
     top: auto;
-    left: 0;
+    left: 10px;
+    bottom: 5px;
     width: 30px;
     height: 30px;
     background-image: url("../images/envelope.webp");

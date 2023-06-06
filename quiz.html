@@ -92,6 +92,42 @@
 
         <footer>
             <div class="container">
+                <!-- Contact Button -->
+                <button data-open-modal class="contact-btn">Feedback / Report bugs</button>
+                <!-- Modal for Contact Form -->
+                <dialog id="modalContact" data-modal>
+                    <div class="modal">
+                        <button class="btn close-btn" alt="close button" data-close-modal>&#10005;</button>
+                        <div id="contact-container">
+                            <h2>Get in Touch</h2>
+                            <p>Please use this form to provide feedback or report any bugs you find.</p>
+                            <form id="contact-form">
+                                <input type="hidden" name="contact_number">
+                                <label for="name">NAME</label>
+                                <input type="text" id="name" name="user_name" aria-label="Please enter your name" required>
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="user_email" aria-label="Please enter your email" required>
+                                <label for="message">YOUR MESSAGE</label>
+                                <textarea id="message" name="message" aria-label="Please provide message"
+                                    required></textarea>
+                                <div id="error-message">
+                                    <noscript>
+                                        <p>This form requires JavaScript to work. Your browser does not support
+                                            JavaScript or it is disabled! <a href="https://www.enable-javascript.com/"
+                                                target="_blank"
+                                                aria-label="Visit enable-javascript.com (opens in a new tab)">.
+                                                Click here for more information on enabling JavaScript</a>.
+                                        </p>
+                                    </noscript>
+                                </div>
+                                <div id="submit-button">
+                                    <input type="submit" id="submit-contact-button" aria-label="Submit message">
+                                </div>
+                            </form>
+                            <div id="thank-you-message"></div>
+                        </div>
+                    </div>
+                </dialog>
                 <!-- Copywrite -->
                 <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
                 <!-- Project description -->
@@ -102,6 +138,9 @@
 
     <!-- JavaScript files -->
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/quiz.js"></script>
+    <script src="assets/js/spin-wheel.js"></script>
+    <!-- EmailJS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 </html>

@@ -1090,7 +1090,7 @@ select:hover {
     display: inline-grid;
     grid-column: 1 / span 2;
 }
-#contact-form input {
+#contact-form input#name, #contact-form input#email, #contact-form textarea#message {
     min-height: 35px;
     color: var(--dark-blue);
     font-size: 18px;

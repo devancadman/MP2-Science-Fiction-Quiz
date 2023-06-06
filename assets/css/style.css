@@ -72,10 +72,10 @@ img {
 
 main {
     min-height: 70vh;
-    grid-template-rows: auto 1fr auto;
     display: flex;
     place-items: center;
     flex-flow: column;
+    margin-bottom: 1rem;
 }
 
 /* Custom Scroll Bar */

@@ -305,7 +305,8 @@ window.onload = function() {
 
 // Helper function to create TxtType instance
 function createTxtType(element, toRotate, period) {
-  new TxtType(element, toRotate, period); // Create a new TxtType instance
+  var txtType = new TxtType(element, toRotate, period); // Create a new TxtType instance
+  txtType.start(); // Call the start method explicitly to initiate the typing animation
 }
 
 }

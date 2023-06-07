@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /* Add Sound on Button Hover
   Also Add a Play / Mute Button for sound */
-  var buttons = document.querySelectorAll(".outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .sound-btn, .mute-button, close-btn");
+  var buttons = document.querySelectorAll(".outline-btn, .wrong, .correct, .next-btn, .blue-btn, .option, .btn-spin, .sound-btn, .mute-button, close-btn, .logo, .contact-btn");
   var hoverSound = new Audio('./assets/audio/button-hover-future.wav');
 
   var isSoundMuted = false;
@@ -113,13 +113,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Music play/pause with image change
   var track = document.getElementById('track');
   var controlBtn = document.getElementById('play-pause');
   var muteIcon = document.getElementById("muteIcon");
-  track.volume = 0.5; // Adjust the volume level (0.0 to 1.0)
   var isPlaying = false;
-
+  
   function playPause() {
     if (!isPlaying) {
       track.play()
@@ -142,10 +140,10 @@ document.addEventListener("DOMContentLoaded", function () {
       isPlaying = false;
     }
   }
-
+  
   // Call playPause() to set initial state
   playPause();
-
+  
   controlBtn.addEventListener("click", playPause);
   track.addEventListener("ended", function () {
     controlBtn.className = "play";

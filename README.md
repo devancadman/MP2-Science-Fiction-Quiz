@@ -161,6 +161,9 @@ The colour scheme for the game was based around Futuristic Blue colours, mixed w
 #### User Interface
 
 Primary Colours - Light Blue / Blue / Navy
+
+<br>
+
 ![#051417](https://placehold.it/150x40/051417FFFFFF?text=dark-blue)
 ![#4AC0DB](https://placehold.it/150x40/4AC0DB/FFFFFF?text=light-blue)
 ![#051c25](https://placehold.it/150x40/051c25/FFFFFF?text=border-blue)
@@ -170,6 +173,9 @@ Primary Colours - Light Blue / Blue / Navy
 ![Colour scheme](./docs/documentation-images/colour-schemes/science-fiction-quiz-colour-scheme.png)
 
 Secondary Colours - Red / dark Red / Green / Dark Green / White
+
+<br>
+
 ![#290909](https://placehold.it/150x40/290909/FFFFFF?text=dark-red)
 ![#e64248](https://placehold.it/150x40/e64248/FFFFFF?text=red)
 ![#37231d](https://placehold.it/150x40/37231d/FFFFFF?text=border-red)
@@ -179,7 +185,7 @@ Secondary Colours - Red / dark Red / Green / Dark Green / White
 
 <br>
 
-![Colour scheme](./docs/documentation-images/colour-schemes/science-fiction-quiz-correct-wrong-colour-scheme.png.png)
+![Colour scheme](./docs/documentation-images/colour-schemes/science-fiction-quiz-correct-wrong-colour-scheme.png)
 
 Colour contrast compliance was tested using [WebAIM's Contrast Checker tool](https://webaim.org/resources/contrastchecker/).
 [Check out the Results here.](./docs/documentation-images/colour-contrast)
@@ -188,11 +194,11 @@ Colour contrast compliance was tested using [WebAIM's Contrast Checker tool](htt
 
 [Orbitron](https://fonts.google.com/specimen/Orbitron) font was selected from Google fonts to give the site a more futuristic style.
 This is used on the Logo, Navigation, Footer, headings and the body.With Monospace, used as a fallback font.
- ![Orbitron Font](./docs/documentation-images/fonts/orbitron-font.png)
+ ![Orbitron Font](./docs/documentation-images/Fonts/orbitron-font.png)
 
 [Breamcatcher](https://www.cdnfonts.com/breamcatcher.font) font was used for the Buttons, li, select and input fields.
 As a fallback, Lucida Sans Typewriter, Helvetica, sans-serif fonts were added.
- ![Breamcatcher Font](./docs/documentation-images/fonts/breamcatcher-font.png)
+ ![Breamcatcher Font](./docs/documentation-images/Fonts/breamcatcher-font.png)
 
 On the 404 Error page, I used the Monospace font for the header and paragraph sections.
 
@@ -207,18 +213,23 @@ This allows the user to quickly understand the name of the game, return to the h
 #### Common sections:
 
 - A Custom Logo in the header, which links to the home page.
+
   ![Logo](./docs/screenshots/Science-Fiction-Quiz-Logo.png)
+
 - A navigation bar to the right this contains:
   - Music play/pause toggle icon.
   - Sound mute/unmute toggle icon.
   - A How to Play modal which conveys the rules of the game and how to play.
   - Home button.
+
   ![Navigation](./docs/screenshots/Science-Fiction-Quiz-Navigation.png)
+
 - A footer section which displays:
   - Feedback / Report Bugs Contact Modal Button.
   - The site copywrite notice.
   - Link to the creators Github Page.
   - As this was an educational project, it has a link to the Education Institution.
+
   ![Footer](./docs/screenshots/Science-Fiction-Quiz-Game-Footer.png)
 
 #### Welcome Overlay Screen/Page
@@ -520,7 +531,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 - quiz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevancadman.github.io%2FMP2-Science-Fiction-Quiz%2Fquiz.html)
 - 404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevancadman.github.io%2FMP2-Science-Fiction-Quiz%2F404.html)
 
-[View Screenshots here.](./docs/documentation-images/Validation/html-validation)
+[View Screenshots here.](./docs/testing/html-validation)
 
 
 ### CSS Validation
@@ -529,7 +540,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 - styles.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdevancadman.github.io%2FMP2-Science-Fiction-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-[View Screenshots here.](./docs/documentation-images/testing/css-validation)
+[View Screenshots here.](./docs/testing/css-validation)
 
 
 ### JavaScript Validation
@@ -603,7 +614,7 @@ Two undefined variables
 28	err
 
 
-[View Screenshots here.](./docs/documentation-images/testing/js-validation)
+[View Screenshots here.](./docs/testing/js-validation)
 
 
 ### Accessibility
@@ -615,7 +626,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 - quiz.html [results](https://wave.webaim.org/report#/https://devancadman.github.io/MP2-Science-Fiction-Quiz/quiz.html)
 - 404.html [results](https://wave.webaim.org/report#/https://devancadman.github.io/MP2-Science-Fiction-Quiz/404.html)
 
-[View Screenshots here.](./docs/documentation-images/testing/wave-accessibility-test)
+[View Screenshots here.](./docs/testing/wave-accessibility-test)
 
 
 ### Performance
@@ -624,28 +635,28 @@ Google Lighthouse in Google's Chrome Developer Tools was used to test the perfor
 
 ### Overlay on Home Page
 
-- index.html - Overlay [Mobile results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-overlay-page.pdf)
-- index.html - Overlay [Desktop results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-overlay-page.pdf)
+- index.html - Overlay [Mobile results](./docs/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-overlay-page.pdf)
+- index.html - Overlay [Desktop results](./docs/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-overlay-page.pdf)
 
 ### Home Page
 
-- index.html [Mobile results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-home-page.pdf)
-- index.html [Desktop results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-home-page.pdf)
+- index.html [Mobile results](./docs/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-home-page.pdf)
+- index.html [Desktop results](./docs/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-home-page.pdf)
 
 ### Level Page
 
-- level.html [Mobile results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-level-page.pdf)
-- level.html [Desktop results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-level-page.pdf)
+- level.html [Mobile results](./docs/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-level-page.pdf)
+- level.html [Desktop results](./docs/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-level-page.pdf)
 
 ### Quiz Page
 
-- quiz.html [Mobile results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-quiz-page.pdf)
-- quiz.html [Desktop results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-quiz-page.pdf)
+- quiz.html [Mobile results](./docs/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-quiz-page.pdf)
+- quiz.html [Desktop results](./docs/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-quiz-page.pdf)
 
 ### 404 Error Page
 
-- 404.html [Mobile results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-404-page.pdf)
-- 404.html [Desktop results](./docs/documentation-images/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-404-page.pdf)
+- 404.html [Mobile results](./docs/testing/page-speed-testing/Lighthouse-page-speed-mobile_science-fiction-quiz-404-page.pdf)
+- 404.html [Desktop results](./docs/testing/page-speed-testing/Lighthouse-page-speed-desktop_science-fiction-quiz-404-page.pdf)
 
 ___
 
@@ -862,7 +873,7 @@ As the site owner, I want users to see a 404 page if they enter an incorrect URL
 
 
 ### User Story Video
-[Click here to view the full User Story Video](./docs/documentation-images/testing/user-story-testing/Science-Fiction-Quiz-User-Story-Video.mp4)
+[Click here to view the full User Story Video](./docs/testing/user-story-testing/Science-Fiction-Quiz-User-Story-Video.mp4)
 
 
 

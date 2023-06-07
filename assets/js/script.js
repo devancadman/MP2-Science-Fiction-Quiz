@@ -94,12 +94,14 @@ document.addEventListener("DOMContentLoaded", function () {
   var isSoundMuted = false;
 
   for (var i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('mouseenter', function () {
-      if (!isSoundMuted) {
-        hoverSound.volume = 0.1; // Adjust the volume level (0.0 to 1.0)
-        hoverSound.play();
-      }
-    });
+    (function (isSoundMuted, hoverSound) {
+      buttons[i].addEventListener('mouseenter', function () {
+        if (!isSoundMuted) {
+          hoverSound.volume = 0.1; // Adjust the volume level (0.0 to 1.0)
+          hoverSound.play();
+        }
+      });
+    })(isSoundMuted, hoverSound);
   }
 
   // Mute Button add/remove class muted
@@ -156,9 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /// Play/Pause functionality for home audio
   if (document.body.id === "home-page") {
-    var homeAudio = document.getElementById("home-audio");
     var playPauseBtn = document.getElementById("play-pause");
-    var muteIcon = document.getElementById("muteIcon");
 
     playPauseBtn.addEventListener("click", function () {
       if (homeAudio.paused) {
@@ -178,34 +178,34 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
     /* Dialog Popup */
-    const openButtons = document.querySelectorAll("[data-open-modal]")
-    const modals = document.querySelectorAll("[data-modal]")
-    const closeButtons = document.querySelectorAll("[data-close-modal]")
+    const openButtons = document.querySelectorAll("[data-open-modal]");
+    const modals = document.querySelectorAll("[data-modal]");
+    const closeButtons = document.querySelectorAll("[data-close-modal]");
 
     openButtons.forEach((openButton, index) => {
-    const modal = modals[index]
-    const closeButton = closeButtons[index]
+    const modal = modals[index];
+    const closeButton = closeButtons[index];
     
     openButton.addEventListener("click", () => {
-        modal.showModal()
-    })
+        modal.showModal();
+    });
 
     modal.addEventListener("click", e => {
-        const modalDimensions = modal.getBoundingClientRect()
+        const modalDimensions = modal.getBoundingClientRect();
         if (
             e.clientX < modalDimensions.left ||
             e.clientX > modalDimensions.right ||
             e.clientY < modalDimensions.top ||
             e.clientY > modalDimensions.bottom
         ) {
-            modal.close()
+            modal.close();
         }
-    })
+    });
 
     closeButton.addEventListener("click", () => {
-        modal.close()
-    })
-    })
+        modal.close();
+    });
+    });
 });
 
 /* Click to Play Screen overlay */
@@ -291,15 +291,21 @@ if (document.body.classList.contains('error404')) {
     }, delta);
   };
 
-  // Run the code when the window has finished loading
-  window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite'); // Get all elements with the class 'typewrite'
-    for (var i = 0; i < elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-type'); // Get the 'data-type' attribute value
-      var period = elements[i].getAttribute('data-period'); // Get the 'data-period' attribute value
-      if (toRotate) {
-        new TxtType(elements[i], JSON.parse(toRotate), period); // Create a new TxtType instance for each element
-      }
+// Run the code when the window has finished loading
+window.onload = function() {
+  var elements = document.getElementsByClassName('typewrite'); // Get all elements with the class 'typewrite'
+  for (var i = 0; i < elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-type'); // Get the 'data-type' attribute value
+    var period = elements[i].getAttribute('data-period'); // Get the 'data-period' attribute value
+    if (toRotate) {
+      createTxtType(elements[i], JSON.parse(toRotate), period); // Call a helper function instead of using 'new'
     }
-  };
+  }
+};
+
+// Helper function to create TxtType instance
+function createTxtType(element, toRotate, period) {
+  new TxtType(element, toRotate, period); // Create a new TxtType instance
+}
+
 }

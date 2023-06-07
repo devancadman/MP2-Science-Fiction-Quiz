@@ -94,12 +94,14 @@ document.addEventListener("DOMContentLoaded", function () {
   var isSoundMuted = false;
 
   for (var i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('mouseenter', function () {
-      if (!isSoundMuted) {
-        hoverSound.volume = 0.1; // Adjust the volume level (0.0 to 1.0)
-        hoverSound.play();
-      }
-    });
+    (function (isSoundMuted, hoverSound) {
+      buttons[i].addEventListener('mouseenter', function () {
+        if (!isSoundMuted) {
+          hoverSound.volume = 0.2; // Adjust the volume level (0.0 to 1.0)
+          hoverSound.play();
+        }
+      });
+    })(isSoundMuted, hoverSound);
   }
 
   // Mute Button add/remove class muted
